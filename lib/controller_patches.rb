@@ -4,15 +4,15 @@
 # classes are reloaded, but initialization is not run each time.
 # See http://stackoverflow.com/questions/7072758/plugin-not-reloading-in-development-mode
 #
-Rails.configuration.to_prepare do
-    # Example adding an instance variable to the frontpage controller
-    GeneralController.class_eval do
-        def mycontroller
-            @say_something = "Greetings friend"
-        end
-    end
-    HelpController.class_eval do
-        def help_out
-        end
-    end
-end
+# Rails.configuration.to_prepare do
+#     # Example adding an instance variable to the frontpage controller
+#     GeneralController.class_eval do
+#         def mycontroller
+#             @say_something = "Greetings friend"
+#         end
+#     end
+#     HelpController.class_eval do
+#         def help_out
+#         end
+#     end
+# end
