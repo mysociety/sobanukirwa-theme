@@ -390,24 +390,35 @@ a.link_button_green_large {
 
 }
 
-
 /* Footer */
 #footer {
   background-color: $footer-bg;
   color: $footer-color;
-  padding: 2em 4em;
   font-family: $sans-serif-font-family;
+  font-size: 1em;
+  padding: 2em 4em;
   a {
     text-decoration: none;
     color: $footer-link-color;
   }
-  ul > li:nth-child(4n+1) {
-    padding-top: 0;
+  h1:first-child,
+  h2:first-child,
+  h3:first-child,
+  h4:first-child,
+  h5:first-child,
+  h6:first-child {
+    margin-top: 0;
   }
-
   ul li {
-    padding: 1em 0 0 0 ;
-    text-align: bottom;
+    text-align: center;
+  }
+  ul.contact {
+    li {
+      padding-left: 0;
+      padding-right: 0;
+      text-align: left;
+      width: 100%;
+    }
   }
 }
 

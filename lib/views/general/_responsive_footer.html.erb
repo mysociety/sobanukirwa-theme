@@ -1,0 +1,35 @@
+<div class="footer" id="footer">
+  <div class="footer-inner">
+    <div id="footer-nav">
+        <ul>
+          <li>
+            <h4><%= _("A project by") %></h4>
+            <%= link_to image_tag('logo.png'), frontpage_path, :id => 'logo' %>
+          </li>
+          <li>
+            <ul class="contact">
+              <li><%= link_to _("Contact us"), help_contact_path %></li>
+
+              <% unless AlaveteliConfiguration.twitter_username.blank? %>
+                <li>
+                  <%= link_to "https://twitter.com/#{ AlaveteliConfiguration.twitter_username }" do %>
+                    <%= _("Follow us on Twitter") %>
+                  <% end %>
+                </li>
+              <% end %>
+            </ul>
+          </li>
+
+          <li>
+            <%= _('Powered by <a href="http://www.alaveteli.org/">Alaveteli</a>') %>
+          
+            <h5><%= _("With the help of")%></h5>
+
+            <%= link_to 'http://www.odesudi.org', :class => 'footer-logo' do %>
+              <%= image_tag('odesudi-logo.jpg', :alt => "ODESUDI logo") %>
+            <% end %>
+          </li>          
+        </ul>
+    </div>
+  </div>
+</div>
