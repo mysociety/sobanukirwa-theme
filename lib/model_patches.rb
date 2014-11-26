@@ -3,13 +3,14 @@
 # Doing so in init/environment.rb wouldn't work in development, since
 # classes are reloaded, but initialization is not run each time.
 # See http://stackoverflow.com/questions/7072758/plugin-not-reloading-in-development-mode
-#
-# Rails.configuration.to_prepare do
-#     OutgoingMessage.class_eval do
-#         # Add intro paragraph to new request template
-#         def default_letter
-#             return nil if self.message_type == 'followup'
-#             #"If you uncomment this line, this text will appear as default text in every message"
-#         end
-#     end
-# end
+
+Rails.configuration.to_prepare do
+    OutgoingMessage.class_eval do
+        # Add intro paragraph to new request template
+        def default_letter
+            return nil if self.message_type == 'followup'
+            _("I would like to ask for the following information under Law no " \
+              "04/2013 of 08/02/2013 relating to access to information.\n\n")
+        end
+    end
+end
