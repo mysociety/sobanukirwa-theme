@@ -401,6 +401,9 @@ a.link_button_green_large {
     text-decoration: none;
     color: $footer-link-color;
   }
+  h1,h2,h3,h4,h5,h6 {
+    color: lighten($heading-color, 15%);
+  }
   h1:first-child,
   h2:first-child,
   h3:first-child,
