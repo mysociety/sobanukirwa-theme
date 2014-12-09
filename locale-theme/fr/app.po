@@ -162,3 +162,9 @@ msgstr ""
 
 msgid "{{existing_request_user}} already\\n      created the same request on {{date}}. You can either view the <a href=\"{{existing_request}}\">existing request</a>,\\n      or edit the details below to make a new but similar request."
 msgstr ""
+
+msgid "Make a request"
+msgstr "L'acces a une information"
+
+msgid "Read blog"
+msgstr "Blog"
