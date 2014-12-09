@@ -386,8 +386,12 @@ a.link_button_green_large {
         background-image: image-url('logo-mobile.png');
         background-repeat: no-repeat;
         background-position: left center;
-        background-size: 214px 30px;
+        background-size: 200px 27px;
         height: 30px;
+        @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+          background-image: image-url('logo-mobile@2.png');
+          background-size: 200px 27px;
+        }
       }
 
       img {
