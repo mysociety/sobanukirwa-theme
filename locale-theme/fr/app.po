@@ -28,6 +28,9 @@ msgstr ""
 msgid "Browse <a href='{{url}}'>other requests</a> to '{{public_body_name}}' for examples of how to word your request."
 msgstr ""
 
+msgid "Browse requests"
+msgstr "L'acces a une information"
+
 msgid "Contact us"
 msgstr ""
 
@@ -44,6 +47,9 @@ msgid "Everything that you enter on this page\\n                will be <strong>
 msgstr ""
 
 msgid "Follow us on Twitter"
+msgstr ""
+
+msgid "Help"
 msgstr ""
 
 msgid "However, you have the right to request environmental\\n            information under a different law"
@@ -69,6 +75,9 @@ msgstr ""
 
 msgid "Like us on Facebook"
 msgstr ""
+
+msgid "Make a request"
+msgstr "L'acces a une information"
 
 msgid "Make an {{law_used_short}} request"
 msgstr ""
@@ -100,6 +109,9 @@ msgstr ""
 msgid "Preview your public request"
 msgstr ""
 
+msgid "Read blog"
+msgstr "Blog"
+
 msgid "Sign up"
 msgstr ""
 
@@ -122,6 +134,9 @@ msgid "This is an FOI request done via the {{site_name}} website. This footer ha
 msgstr ""
 
 msgid "To:"
+msgstr ""
+
+msgid "View authorities"
 msgstr ""
 
 msgid "We will not reveal your email address to anybody unless you or\\n        the law tell us to (<a href=\"{{url}}\">details</a>). "
@@ -162,9 +177,3 @@ msgstr ""
 
 msgid "{{existing_request_user}} already\\n      created the same request on {{date}}. You can either view the <a href=\"{{existing_request}}\">existing request</a>,\\n      or edit the details below to make a new but similar request."
 msgstr ""
-
-msgid "Make a request"
-msgstr "L'acces a une information"
-
-msgid "Read blog"
-msgstr "Blog"
