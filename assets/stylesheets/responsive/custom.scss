@@ -205,6 +205,19 @@ a.link_button_green_large {
 
 /* Header */
 
+/* Add green/yellow/blue stripes before header */
+body:before {
+  background: image-url('banner-stripe.png') repeat top center #333333;
+  background-size: 100%;
+  content: '';
+  display: block;
+  height: 8px;
+  width: 100%;
+  @media( max-width: $main_menu-mobile_menu_cutoff ){
+    height: 4px;
+  }
+}
+
 #banner_inner {
   background-color: $banner-bg;
 }
