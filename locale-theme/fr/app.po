@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# mySociety <transifex@mysociety.org>, 2014
+# mySociety <transifex@mysociety.org>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: alaveteli\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-11 14:48+0000\n"
-"PO-Revision-Date: 2014-12-11 15:08+0000\n"
+"PO-Revision-Date: 2015-01-06 16:04+0000\n"
 "Last-Translator: mySociety <transifex@mysociety.org>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/sobanukirwa-theme/language/fr/)\n"
 "Language: fr\n"
@@ -79,7 +79,7 @@ msgid "Human health and safety"
 msgstr ""
 
 msgid "I would like to ask for the following information under Law no 04/2013 of 08/02/2013 relating to access to information.\\n\\n"
-msgstr ""
+msgstr "J'aimerai accéder cette information comme prévoit la loi numero 04/2013 en rapport avec l'accès a l'information.\\n\\n"
 
 msgid "If you're new to {{site_name}}"
 msgstr ""
