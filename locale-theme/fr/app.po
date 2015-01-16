@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: alaveteli\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-16 11:26+0000\n"
-"PO-Revision-Date: 2015-01-16 07:06+0000\n"
-"Last-Translator: Stephen Abbott Pugh <stephendabbott@gmail.com>\n"
+"PO-Revision-Date: 2015-01-16 11:34+0000\n"
+"Last-Translator: mySociety <transifex@mysociety.org>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/sobanukirwa-theme/language/fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -92,7 +92,7 @@ msgid "If you're new to {{site_name}}"
 msgstr "Si vous êtes nouveau {{site_name}}"
 
 msgid "In partnership with"
-msgstr ""
+msgstr "En partenariat avec"
 
 msgid "Information on emissions and discharges (e.g. noise, energy,\\n            radiation, waste materials)"
 msgstr "Informations sur les émissions et rejets (par exemple, le bruit, l'énergie, \\n            radiations, déchets)"
@@ -201,9 +201,3 @@ msgstr "un résumé d'une ligne de l'information que vous demandez, \\n\t\t\te.g
 
 msgid "{{existing_request_user}} already\\n      created the same request on {{date}}. You can either view the <a href=\"{{existing_request}}\">existing request</a>,\\n      or edit the details below to make a new but similar request."
 msgstr "{{existing_request_user}}  a dejà effectué la même demande le {{date}}. Vous pouvez soit voir la <a href=\"{{existing_request}}\">demande existante </a>,\\n ou modifier les details ci dessous pour faire une nouvelle demande similaire ."
-
-#~ msgid "This is an FOI request done via the {{site_name}} website. This footer has been overriden by the sample Alaveteli theme."
-#~ msgstr "Ceci est une demande d'accès à l'information faite par le moyen de ce site {{site_name}}. L'échantillon du thème d'Alaveteli a outrepassé ce pied de page."
-
-#~ msgid "With the help of"
-#~ msgstr "Avec l'aide de"
