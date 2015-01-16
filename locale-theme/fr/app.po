@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alaveteli\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-11 14:48+0000\n"
+"POT-Creation-Date: 2015-01-16 11:26+0000\n"
 "PO-Revision-Date: 2015-01-16 07:06+0000\n"
 "Last-Translator: Stephen Abbott Pugh <stephendabbott@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/sobanukirwa-theme/language/fr/)\n"
@@ -91,6 +91,9 @@ msgstr "J'aimerai accéder cette information comme prévoit la loi numero 04/201
 msgid "If you're new to {{site_name}}"
 msgstr "Si vous êtes nouveau {{site_name}}"
 
+msgid "In partnership with"
+msgstr ""
+
 msgid "Information on emissions and discharges (e.g. noise, energy,\\n            radiation, waste materials)"
 msgstr "Informations sur les émissions et rejets (par exemple, le bruit, l'énergie, \\n            radiations, déchets)"
 
@@ -157,9 +160,6 @@ msgstr "Le droit d'accès à l'information <strong>ne s'applique pas </strong> �
 msgid "This covers a very wide spectrum of information about the state of\\n            the <strong>natural and built environment</strong>, such as:"
 msgstr "Cela couvre un très large spectre d'informations sur l'état de \\n           l'<strong>environnement naturel et construit par l'homme,</strong> comme par exemple :"
 
-msgid "This is an FOI request done via the {{site_name}} website. This footer has been overriden by the sample Alaveteli theme."
-msgstr "Ceci est une demande d'accès à l'information faite par le moyen de ce site {{site_name}}. L'échantillon du thème d'Alaveteli a outrepassé ce pied de page."
-
 msgid "To:"
 msgstr "A:"
 
@@ -168,9 +168,6 @@ msgstr "Voir les institutions publiques"
 
 msgid "We will not reveal your email address to anybody unless you or\\n        the law tell us to (<a href=\"{{url}}\">details</a>). "
 msgstr "Nous ne communiquerons pas votre adresse e-mail sauf si vous nous y  autorisez ou\\n       si la loi nous y oblige (<a href=\"{{url}}\">détails</a>). "
-
-msgid "With the help of"
-msgstr "Avec l'aide de"
 
 msgid "Would you like to see a website like this in your country?"
 msgstr "Soutenez-vous la création d'un site comme celui-ci dans votre pays ?"
@@ -204,3 +201,9 @@ msgstr "un résumé d'une ligne de l'information que vous demandez, \\n\t\t\te.g
 
 msgid "{{existing_request_user}} already\\n      created the same request on {{date}}. You can either view the <a href=\"{{existing_request}}\">existing request</a>,\\n      or edit the details below to make a new but similar request."
 msgstr "{{existing_request_user}}  a dejà effectué la même demande le {{date}}. Vous pouvez soit voir la <a href=\"{{existing_request}}\">demande existante </a>,\\n ou modifier les details ci dessous pour faire une nouvelle demande similaire ."
+
+#~ msgid "This is an FOI request done via the {{site_name}} website. This footer has been overriden by the sample Alaveteli theme."
+#~ msgstr "Ceci est une demande d'accès à l'information faite par le moyen de ce site {{site_name}}. L'échantillon du thème d'Alaveteli a outrepassé ce pied de page."
+
+#~ msgid "With the help of"
+#~ msgstr "Avec l'aide de"

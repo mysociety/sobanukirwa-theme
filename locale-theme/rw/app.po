@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alaveteli\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-11 14:48+0000\n"
+"POT-Creation-Date: 2015-01-16 11:26+0000\n"
 "PO-Revision-Date: 2015-01-16 07:06+0000\n"
 "Last-Translator: Stephen Abbott Pugh <stephendabbott@gmail.com>\n"
 "Language-Team: Kinyarwanda (http://www.transifex.com/projects/p/sobanukirwa-theme/language/rw/)\n"
@@ -83,6 +83,9 @@ msgstr "Nifuzaga gusaba amakuru nkuko byemewe tugendeye kw'itegeko numero 04/201
 msgid "If you're new to {{site_name}}"
 msgstr "Niba ari ubwa mbere ukoresheje {{site_name}}"
 
+msgid "In partnership with"
+msgstr ""
+
 msgid "Information on emissions and discharges (e.g. noise, energy,\\n            radiation, waste materials)"
 msgstr "Amakuru ku bihumanya  (urugero: urusaku, ibikomoka ku ngufu,\\n            ibyuka bihumanya, imyanda)"
 
@@ -149,9 +152,6 @@ msgstr "Igikorwa cy'ubwisanzure bwo kumenya amakuru <strong>ntabwo kireba </stro
 msgid "This covers a very wide spectrum of information about the state of\\n            the <strong>natural and built environment</strong>, such as:"
 msgstr "Hano harimo amakuru atandukanye asobanura\\n            ku <strong>bidukikije karemano n'ibyakozwe</strong>, nka:"
 
-msgid "This is an FOI request done via the {{site_name}} website. This footer has been overriden by the sample Alaveteli theme."
-msgstr "Iki ni ikibazo cy'Ubwisanzure bwo kumenya amakuru cyatanzwe hakoreshejwe urubuga {{site_name}}. Urugero rw'insanganyamatsiko ya Alaveteli yapfutse iki igice cyo hasi cy'urupapuro."
-
 msgid "To:"
 msgstr "Kuri:"
 
@@ -160,9 +160,6 @@ msgstr "Reba abayobozi"
 
 msgid "We will not reveal your email address to anybody unless you or\\n        the law tell us to (<a href=\"{{url}}\">details</a>). "
 msgstr "Nta muntu tuzereka imeli aderesi yawe keretse tubisabwe na we \\n        cyangwa itegeko (<a href=\"{{url}}\">details</a>). "
-
-msgid "With the help of"
-msgstr "Ku bufasha bwa"
 
 msgid "Would you like to see a website like this in your country?"
 msgstr "Urashaka kubona urubuga rwa interineti nk'uru mu gihugu cyawe?"
@@ -196,3 +193,9 @@ msgstr "Incamake y'umurongo umwe ivuga amakuru uri kubaza \\n\t\t\te.g."
 
 msgid "{{existing_request_user}} already\\n      created the same request on {{date}}. You can either view the <a href=\"{{existing_request}}\">existing request</a>,\\n      or edit the details below to make a new but similar request."
 msgstr "{{existing_request_user}} wamaze\\n      gutanga icyo kibazo kuwa {{date}}. Ushobora kureba <a href=\"{{existing_request}}\">ikibazo gisanzwe</a>,\\n      cyangwa se ugahindura ibisobanuro bikurikira ugatanga ikindi ikibazo gisa na cyakindi."
+
+#~ msgid "This is an FOI request done via the {{site_name}} website. This footer has been overriden by the sample Alaveteli theme."
+#~ msgstr "Iki ni ikibazo cy'Ubwisanzure bwo kumenya amakuru cyatanzwe hakoreshejwe urubuga {{site_name}}. Urugero rw'insanganyamatsiko ya Alaveteli yapfutse iki igice cyo hasi cy'urupapuro."
+
+#~ msgid "With the help of"
+#~ msgstr "Ku bufasha bwa"
