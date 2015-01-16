@@ -3,197 +3,194 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# mySociety <transifex@mysociety.org>, 2014-2015
+# mySociety <transifex@mysociety.org>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: alaveteli\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-11 14:48+0000\n"
-"PO-Revision-Date: 2015-01-06 15:49+0000\n"
+"POT-Creation-Date: 2015-01-16 11:26+0000\n"
+"PO-Revision-Date: 2015-01-16 11:35+0000\n"
 "Last-Translator: mySociety <transifex@mysociety.org>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/sobanukirwa-theme/language/fr/)\n"
-"Language: fr\n"
+"Language-Team: Kinyarwanda (http://www.transifex.com/projects/p/sobanukirwa-theme/language/rw/)\n"
+"Language: rw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "(hide)"
-msgstr ""
+msgstr "(hisha)"
 
 msgid "(show)"
-msgstr ""
+msgstr "(erekana)"
 
 msgid "2. Ask for Information"
-msgstr ""
+msgstr "2. Saba amakuru"
 
 msgid "<strong> Can I request information about myself?</strong>\\n\t\t\t<a href=\"{{url}}\">No! (Click here for details)</a>"
-msgstr ""
+msgstr "<strong> Nshobora gusaba amakuru anyerekeyeho?</strong>\\n\t\t\t<a href=\"{{url}}\">Oya! (Kanda hano kugirango ubone ibisobanuro)</a>"
 
 msgid "<strong>There may be risks associated with using your real name.</strong> <a href=\"{{help_url}}\">Read our advice</a> about using a pseudonym."
-msgstr ""
+msgstr "<strong>Hashobora kubaho ibibazo bijyanye no gukoresha amazina yawe nyayo.</strong> <a href=\"{{help_url}}\">Soma inama tukugira</a> zijyanye no gukoresha amazina y'amahimbano."
 
 msgid "A project by"
-msgstr ""
+msgstr "Umushinga wa"
 
 msgid "Air, water, soil, land, flora and fauna (including how these effect\\n            human beings)"
-msgstr ""
+msgstr "Umwuka, amazi, ubutaka, inyamaswa n'ibihingwa (n'ingaruka bigira ku\\n            bantu)"
 
 msgid "Ask for <strong>specific</strong> documents or information, this site is not suitable for general enquiries."
-msgstr ""
+msgstr "Saba <strong></strong> impapuro cyangwa amakuru yihariye, uru rubuga ntabwo rukwiye kubarizwaho ibintu biri rusange."
 
 msgid "Browse <a href='{{url}}'>other requests</a> for examples of how to word your request."
-msgstr ""
+msgstr "Shaka <a href='{{url}}'>ibindi bibazo</a> ku ngero z'amagambo wakoresha mu kibazo cyawe."
 
 msgid "Browse <a href='{{url}}'>other requests</a> to '{{public_body_name}}' for examples of how to word your request."
-msgstr ""
+msgstr "Shaka <a href='{{url}}'>ibindi bibazo</a> byabajijwe '{{public_body_name}}' kugirango ubone ingero z'amagambo wakoresha mu kibazo cyawe."
 
 msgid "Browse requests"
-msgstr ""
+msgstr "Shaka ibibazo"
 
 msgid "Contact us"
-msgstr ""
+msgstr "Twandikire"
 
 msgid "Cultural sites and built structures (as they may be affected by the\\n            environmental factors listed above)"
-msgstr ""
+msgstr "Ahantu ndanga mateka n'ahubatswe (kuko hashobora gukorwaho \\n            n'amategeko agenga ibidukikije ari haruguru)"
 
 msgid "Every citizen has the right to access information held by public authorities.<strong>By law, they have to respond</strong>. <a href={{help_url}}>Find out more about Access to Information.</a>"
-msgstr ""
+msgstr "Buri muturage afite uburenganzira bwo guhabwa amakuru afitwe n'abayobozi.<strong>Mu mategeko, bagomba gusubiza</strong>. <a href={{help_url}}>Menya ibindi ku guhabwa amakuru.</a>"
 
 msgid "Everything that you enter on this page, including <strong>your name</strong>,\\n                will be <strong>displayed publicly</strong> on\\n                this website forever (<a href=\"{{url}}\">why?</a>)."
-msgstr ""
+msgstr "Ibintu byose ushyira kuri uru rubuga, harimo <strong>amazina yawe</strong>,\\n                bizajya <strong>bigaragarira buri wese</strong> kuri\\n                uru rubuga iteka ryose (<a href=\"{{url}}\">why?</a>)."
 
 msgid "Everything that you enter on this page\\n                will be <strong>displayed publicly</strong> on\\n                this website forever (<a href=\"{{url}}\">why?</a>)."
-msgstr ""
+msgstr "Ibintu byose ushyira kuri uru rubuga\\n                bizashyirwa <strong>ku mugaragaro</strong> kuri \\n                uru rubuga iteka ryose (<a href=\"{{url}}\">why?</a>)."
 
 msgid "Follow us on Twitter"
-msgstr ""
+msgstr "Dukurikire kuri Twitter"
 
 msgid "Help"
-msgstr ""
+msgstr "Ubufasha"
 
 msgid "However, you have the right to request environmental\\n            information under a different law"
-msgstr ""
+msgstr "Nyamara, ufite uburenganzira bwo gusaba amakuru \\n            ku bidukikije ukoresheje irindi tegeko"
 
 msgid "Human health and safety"
-msgstr ""
+msgstr "Ubuzima n'umutekano w'abantu"
 
 msgid "I would like to ask for the following information under Law no 04/2013 of 08/02/2013 relating to access to information.\\n\\n"
 msgstr "Nifuzaga gusaba amakuru nkuko byemewe tugendeye kw'itegeko numero 04/2013 ryatowe ku ya 8 Gashyantare 2013 rijyanye no guhabwa amakuru.\\n\\n"
 
 msgid "If you're new to {{site_name}}"
-msgstr ""
+msgstr "Niba ari ubwa mbere ukoresheje {{site_name}}"
+
+msgid "In partnership with"
+msgstr "Ku bufatanye na"
 
 msgid "Information on emissions and discharges (e.g. noise, energy,\\n            radiation, waste materials)"
-msgstr ""
+msgstr "Amakuru ku bihumanya  (urugero: urusaku, ibikomoka ku ngufu,\\n            ibyuka bihumanya, imyanda)"
 
 msgid "Is {{email_address}} the wrong address for {{type_of_request}} requests to {{public_body_name}}? If so, please contact us using this form:"
-msgstr ""
+msgstr "Iyi imeli {{email_address}} ntabwo ariyo yakoreshwa mu gutanga ibibazo bijyanye na {{type_of_request}} kuri {{public_body_name}}? Niba atariyo, tubwire wuzuza iyi fishi:"
 
 msgid "Keep it <strong>focused</strong>, you'll be more likely to get what you want (<a href=\"{{url}}\">why?</a>)."
-msgstr ""
+msgstr "Gerageza kurasa <strong>ku ntego</strong>, birakorohera kubona icyo ushaka. (<a href=\"{{url}}\">why?</a>)."
 
 msgid "Like us on Facebook"
-msgstr ""
+msgstr "Dukunde kuri Facebook"
 
 msgid "Make a request"
 msgstr "L'acces a une information"
 
 msgid "Make an {{law_used_short}} request"
-msgstr ""
+msgstr "Tanga ikibazo kuri {{law_used_short}} "
 
 msgid "Make an {{law_used_short}} request to '{{public_body_name}}'"
-msgstr ""
+msgstr "Baza {{law_used_short}} ikibazo '{{public_body_name}}'"
 
 msgid "Password:"
-msgstr ""
+msgstr "Ijambo banga:"
 
 msgid "Password: (again)"
-msgstr ""
+msgstr "Ijambo banga: (nanone)"
 
 msgid "Plans and administrative measures that affect these matters"
-msgstr ""
+msgstr "Gahunda n'ibyemezo by'ubuyobozi bigira ingaruka kuri iki kibazo"
 
 msgid "Please ask for environmental information only"
-msgstr ""
+msgstr "Baza amakuru arebana n'ibidukikije gusa"
 
 msgid "Please only request information that comes under those categories, <strong>do not waste your\\n            time</strong> or the time of the public authority by requesting unrelated information."
-msgstr ""
+msgstr "Saba amakuru ari muri iki cyiciro gusa, <strong>reka gutakaza\\n            umwanya wawe</strong> cyangwa umwanya w'abayobozi usaba amakuru atajyanye."
 
 msgid "Please use this email address for all replies to this request:"
-msgstr ""
+msgstr "Koresha iyi imeli wohereza ibisubizo byose kuri iki kibazo:"
 
 msgid "Powered by <a href=\"http://www.alaveteli.org/\">Alaveteli</a>"
-msgstr ""
+msgstr "Yakozwe na <a href=\"http://www.alaveteli.org/\">Alaveteli</a>"
 
 msgid "Preview your public request"
-msgstr ""
+msgstr "Reba ikibazo cyawe ugiye gutanga ku mugaragaro"
 
 msgid "Read blog"
 msgstr "Blog"
 
 msgid "Sign up"
-msgstr ""
+msgstr "Funguza"
 
 msgid "Special note for this authority!"
-msgstr ""
+msgstr "Ubutumwa bwihariye kuri uyu muyobozi!"
 
 msgid "Summary:"
-msgstr ""
+msgstr "Incamake:"
 
 msgid "Tags (separated by a space):"
-msgstr ""
+msgstr "Ibimenyetso (bitandukanyijwe n'umwanya hagati yabyo):"
 
 msgid "The Freedom of Information Act <strong>does not apply</strong> to"
-msgstr ""
+msgstr "Igikorwa cy'ubwisanzure bwo kumenya amakuru <strong>ntabwo kireba </strong> "
 
 msgid "This covers a very wide spectrum of information about the state of\\n            the <strong>natural and built environment</strong>, such as:"
-msgstr ""
-
-msgid "This is an FOI request done via the {{site_name}} website. This footer has been overriden by the sample Alaveteli theme."
-msgstr ""
+msgstr "Hano harimo amakuru atandukanye asobanura\\n            ku <strong>bidukikije karemano n'ibyakozwe</strong>, nka:"
 
 msgid "To:"
-msgstr ""
+msgstr "Kuri:"
 
 msgid "View authorities"
-msgstr ""
+msgstr "Reba abayobozi"
 
 msgid "We will not reveal your email address to anybody unless you or\\n        the law tell us to (<a href=\"{{url}}\">details</a>). "
-msgstr ""
-
-msgid "With the help of"
-msgstr ""
+msgstr "Nta muntu tuzereka imeli aderesi yawe keretse tubisabwe na we \\n        cyangwa itegeko (<a href=\"{{url}}\">details</a>). "
 
 msgid "Would you like to see a website like this in your country?"
-msgstr ""
+msgstr "Urashaka kubona urubuga rwa interineti nk'uru mu gihugu cyawe?"
 
 msgid "Write your request in <strong>simple, precise language</strong>."
-msgstr ""
+msgstr "Andika ikibazo cyawe <strong>mu magambo yoroshye kandi urasa ku ntego</strong>."
 
 msgid "You already created the same batch of requests on {{date}}.   You can either view the <a href=\"{{existing_batch}}\">existing batch</a>, or edit the details below to make a new but similar batch of requests."
-msgstr ""
+msgstr "Wamaze gutanga ibi bibazo kuwa {{date}}.   Ushobora kureba <a href=\"{{existing_batch}}\">ibibazo watanze mbere</a>, cyangwa se ugahindura ingingo zikurikira kugirango utange ibi bibazo bundi bushya ariko bisa na byabindi."
 
 msgid "Your <strong>Right to Know</strong>"
-msgstr ""
+msgstr "Uburenganzira <strong>bwawe bwo kumenya</strong>"
 
 msgid "Your e-mail:"
-msgstr ""
+msgstr "Imeli yawe:"
 
 msgid "Your name will appear <em>publicly</em> (<a href=\"{{why_url}}\">why?</a>) on this website and in search engines."
-msgstr ""
+msgstr "Izina ryawe rizajya riboneka <em>ku mugaragaro</em> (<a href=\"{{why_url}}\">why?</a>) kuri uru rubuga n'imbuga zo gushakiraho."
 
 msgid "Your name:"
-msgstr ""
+msgstr "Amazina yawe:"
 
 msgid "Your request:"
-msgstr ""
+msgstr "Ikibazo cyawe:"
 
 msgid "Your selected authorities"
-msgstr ""
+msgstr "Abayobozi wahisemo"
 
 msgid "a one line summary of the information you are requesting, \\n\t\t\te.g."
-msgstr ""
+msgstr "Incamake y'umurongo umwe ivuga amakuru uri kubaza \\n\t\t\te.g."
 
 msgid "{{existing_request_user}} already\\n      created the same request on {{date}}. You can either view the <a href=\"{{existing_request}}\">existing request</a>,\\n      or edit the details below to make a new but similar request."
-msgstr ""
+msgstr "{{existing_request_user}} wamaze\\n      gutanga icyo kibazo kuwa {{date}}. Ushobora kureba <a href=\"{{existing_request}}\">ikibazo gisanzwe</a>,\\n      cyangwa se ugahindura ibisobanuro bikurikira ugatanga ikindi ikibazo gisa na cyakindi."

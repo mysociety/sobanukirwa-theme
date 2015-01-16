@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: version 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-11 14:48+0000\n"
+"POT-Creation-Date: 2015-01-16 11:26+0000\n"
 "PO-Revision-Date: 2014-12-09 15:21+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,6 +84,9 @@ msgstr ""
 msgid "If you're new to {{site_name}}"
 msgstr ""
 
+msgid "In partnership with"
+msgstr ""
+
 msgid "Information on emissions and discharges (e.g. noise, energy,\\n            radiation, waste materials)"
 msgstr ""
 
@@ -150,9 +153,6 @@ msgstr ""
 msgid "This covers a very wide spectrum of information about the state of\\n            the <strong>natural and built environment</strong>, such as:"
 msgstr ""
 
-msgid "This is an FOI request done via the {{site_name}} website. This footer has been overriden by the sample Alaveteli theme."
-msgstr ""
-
 msgid "To:"
 msgstr ""
 
@@ -160,9 +160,6 @@ msgid "View authorities"
 msgstr ""
 
 msgid "We will not reveal your email address to anybody unless you or\\n        the law tell us to (<a href=\"{{url}}\">details</a>). "
-msgstr ""
-
-msgid "With the help of"
 msgstr ""
 
 msgid "Would you like to see a website like this in your country?"
