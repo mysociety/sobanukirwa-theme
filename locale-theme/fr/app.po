@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Clarisse Umutesi Mwitegereze <clarisse@mediae.org>, 2015
 # mySociety <transifex@mysociety.org>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: alaveteli\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-11 14:48+0000\n"
-"PO-Revision-Date: 2015-01-06 16:04+0000\n"
-"Last-Translator: mySociety <transifex@mysociety.org>\n"
+"PO-Revision-Date: 2015-01-16 07:06+0000\n"
+"Last-Translator: Stephen Abbott Pugh <stephendabbott@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/sobanukirwa-theme/language/fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -19,181 +20,187 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgid "(hide)"
-msgstr ""
+msgstr "(cacher)"
 
 msgid "(show)"
-msgstr ""
+msgstr "(Afficher)"
 
 msgid "2. Ask for Information"
-msgstr ""
+msgstr "2. Demander des informations"
 
 msgid "<strong> Can I request information about myself?</strong>\\n\t\t\t<a href=\"{{url}}\">No! (Click here for details)</a>"
-msgstr ""
+msgstr "<strong> Puis-je demander des informations sur moi-même?</strong>\\n⇥⇥⇥<a href=\"{{url}}\">Non! (Cliquer ici pour les details)</a>"
 
 msgid "<strong>There may be risks associated with using your real name.</strong> <a href=\"{{help_url}}\">Read our advice</a> about using a pseudonym."
-msgstr ""
+msgstr "<strong>Il peut y avoir des risques liés à l'utilisation de votre vrai nom.</strong> <a href=\"{{help_url}}\">Lisez notre conseil</a> sur l'usage d'un pseudonyme."
 
 msgid "A project by"
-msgstr ""
+msgstr "Un projet de"
 
 msgid "Air, water, soil, land, flora and fauna (including how these effect\\n            human beings)"
-msgstr ""
+msgstr "L'air, l'eau, le sol, la terre, la flore et la faune (incluant comment ils affectent\\n des être humains)"
 
 msgid "Ask for <strong>specific</strong> documents or information, this site is not suitable for general enquiries."
-msgstr ""
+msgstr "Demander <strong>des documents ou infromation </strong> spécifiques, ce site n'est pas approprié pour les renseignements généraux."
 
 msgid "Browse <a href='{{url}}'>other requests</a> for examples of how to word your request."
-msgstr ""
+msgstr "Parcourir <a href='{{url}}'>d'autres demandes</a> pour voir des examples de comment formuler votre demande."
 
 msgid "Browse <a href='{{url}}'>other requests</a> to '{{public_body_name}}' for examples of how to word your request."
-msgstr ""
+msgstr "Parcourir <a href='{{url}}'>d'autres demandes</a> à '{{public_body_name}}' pour voir des examples de comment formuler votre question."
 
 msgid "Browse requests"
-msgstr ""
+msgstr "Parcourir les demandes"
 
 msgid "Contact us"
-msgstr ""
+msgstr "Nous contacter"
 
 msgid "Cultural sites and built structures (as they may be affected by the\\n            environmental factors listed above)"
 msgstr ""
+"Les sites culturels et les batiments (ils peuvent être affectés par les\n"
+"              facteurs environnementaux listés ci dessus)"
 
 msgid "Every citizen has the right to access information held by public authorities.<strong>By law, they have to respond</strong>. <a href={{help_url}}>Find out more about Access to Information.</a>"
-msgstr ""
+msgstr "Chaque citoyen a le droit d'accèder les informations retenues par les autorité publiques. <strong>Selon la loi, ils doivent répondre </strong>. <a href={{help_url}}>Trouver plus d'information sur l' Accès à l'information."
 
 msgid "Everything that you enter on this page, including <strong>your name</strong>,\\n                will be <strong>displayed publicly</strong> on\\n                this website forever (<a href=\"{{url}}\">why?</a>)."
 msgstr ""
+"Tout ce que vous entrez sur cette page, y compris <strong>votre nom</strong>,\\n                sera <strong>affiché publiquement </strong> sur\n"
+"                ce site internet éternellement (<a href=\"{{url}}\">Pourquoi?</a>)."
 
 msgid "Everything that you enter on this page\\n                will be <strong>displayed publicly</strong> on\\n                this website forever (<a href=\"{{url}}\">why?</a>)."
 msgstr ""
+"Tout ce que vous entrez sur cette page, y compris <strong>votre nom</strong>,\\n                sera <strong>affiché publiquement </strong> sur\n"
+"                ce site internet éternellement (<a href=\"{{url}}\">Pourquoi?</a>)."
 
 msgid "Follow us on Twitter"
-msgstr ""
+msgstr "Nous suivre sur Twitter"
 
 msgid "Help"
-msgstr ""
+msgstr "De l'aide"
 
 msgid "However, you have the right to request environmental\\n            information under a different law"
-msgstr ""
+msgstr "Cependant, vous avez le droit de demander des\\n            des informations environnementales en vertu d'une loi différente"
 
 msgid "Human health and safety"
-msgstr ""
+msgstr "Santé et sécurité des personnes"
 
 msgid "I would like to ask for the following information under Law no 04/2013 of 08/02/2013 relating to access to information.\\n\\n"
 msgstr "J'aimerai accéder cette information comme prévoit la loi numero 04/2013 en rapport avec l'accès a l'information.\\n\\n"
 
 msgid "If you're new to {{site_name}}"
-msgstr ""
+msgstr "Si vous êtes nouveau {{site_name}}"
 
 msgid "Information on emissions and discharges (e.g. noise, energy,\\n            radiation, waste materials)"
-msgstr ""
+msgstr "Informations sur les émissions et rejets (par exemple, le bruit, l'énergie, \\n            radiations, déchets)"
 
 msgid "Is {{email_address}} the wrong address for {{type_of_request}} requests to {{public_body_name}}? If so, please contact us using this form:"
-msgstr ""
+msgstr "Est ce que {{email_address}} est la mauvaise adresse pour les demandes du type  {{type_of_request}} à  {{public_body_name}}? Si c'est le cas veuillez nous contacter en utilisant ce formulaire:"
 
 msgid "Keep it <strong>focused</strong>, you'll be more likely to get what you want (<a href=\"{{url}}\">why?</a>)."
-msgstr ""
+msgstr "Soyez <strong> précis </strong>, vous aurez plus de chances d'obtenir ce que vous voulez  (<a href=\"{{url}}\">pourquoi?</a>)."
 
 msgid "Like us on Facebook"
-msgstr ""
+msgstr "Nous aimer sur Facebook"
 
 msgid "Make a request"
 msgstr "L'acces a une information"
 
 msgid "Make an {{law_used_short}} request"
-msgstr ""
+msgstr "Faites une {{law_used_short}} demande"
 
 msgid "Make an {{law_used_short}} request to '{{public_body_name}}'"
-msgstr ""
+msgstr "Faire une {{law_used_short}} demande à  '{{public_body_name}}'"
 
 msgid "Password:"
-msgstr ""
+msgstr "Mot de passe :"
 
 msgid "Password: (again)"
-msgstr ""
+msgstr "Mot de passe : (confirmation)"
 
 msgid "Plans and administrative measures that affect these matters"
-msgstr ""
+msgstr "Les plans et les mesures administratifs qui touchent ces questions"
 
 msgid "Please ask for environmental information only"
-msgstr ""
+msgstr "Veuillez demander uniquement des informations environnementales"
 
 msgid "Please only request information that comes under those categories, <strong>do not waste your\\n            time</strong> or the time of the public authority by requesting unrelated information."
-msgstr ""
+msgstr "Veuillez uniquement demander les informations qui appartiennent à ces catégories <strong> ne  perdez pas votre \\n            temps </strong> ou celui de l'administration publique a  demander des informations sans rapport avec  ces catégories ."
 
 msgid "Please use this email address for all replies to this request:"
-msgstr ""
+msgstr "Merci d'utiliser cette adresse mail pour toutes  les réponses à cette demande:"
 
 msgid "Powered by <a href=\"http://www.alaveteli.org/\">Alaveteli</a>"
-msgstr ""
+msgstr "Propulsé par <a href=\"http://www.alaveteli.org/\">Alaveteli</a>"
 
 msgid "Preview your public request"
-msgstr ""
+msgstr "Prévisualiser votre demande "
 
 msgid "Read blog"
 msgstr "Blog"
 
 msgid "Sign up"
-msgstr ""
+msgstr "Créer un compte"
 
 msgid "Special note for this authority!"
-msgstr ""
+msgstr "Remarque spéciale pour cette autorité!"
 
 msgid "Summary:"
-msgstr ""
+msgstr "Résumé:"
 
 msgid "Tags (separated by a space):"
-msgstr ""
+msgstr "Tags (mots clés, séparés par un espace )"
 
 msgid "The Freedom of Information Act <strong>does not apply</strong> to"
-msgstr ""
+msgstr "Le droit d'accès à l'information <strong>ne s'applique pas </strong> à"
 
 msgid "This covers a very wide spectrum of information about the state of\\n            the <strong>natural and built environment</strong>, such as:"
-msgstr ""
+msgstr "Cela couvre un très large spectre d'informations sur l'état de \\n           l'<strong>environnement naturel et construit par l'homme,</strong> comme par exemple :"
 
 msgid "This is an FOI request done via the {{site_name}} website. This footer has been overriden by the sample Alaveteli theme."
-msgstr ""
+msgstr "Ceci est une demande d'accès à l'information faite par le moyen de ce site {{site_name}}. L'échantillon du thème d'Alaveteli a outrepassé ce pied de page."
 
 msgid "To:"
-msgstr ""
+msgstr "A:"
 
 msgid "View authorities"
-msgstr ""
+msgstr "Voir les institutions publiques"
 
 msgid "We will not reveal your email address to anybody unless you or\\n        the law tell us to (<a href=\"{{url}}\">details</a>). "
-msgstr ""
+msgstr "Nous ne communiquerons pas votre adresse e-mail sauf si vous nous y  autorisez ou\\n       si la loi nous y oblige (<a href=\"{{url}}\">détails</a>). "
 
 msgid "With the help of"
-msgstr ""
+msgstr "Avec l'aide de"
 
 msgid "Would you like to see a website like this in your country?"
-msgstr ""
+msgstr "Soutenez-vous la création d'un site comme celui-ci dans votre pays ?"
 
 msgid "Write your request in <strong>simple, precise language</strong>."
-msgstr ""
+msgstr "Formulez votre demande en langage  <strong>simple et  précis </strong>."
 
 msgid "You already created the same batch of requests on {{date}}.   You can either view the <a href=\"{{existing_batch}}\">existing batch</a>, or edit the details below to make a new but similar batch of requests."
-msgstr ""
+msgstr "Vous avez déjà créer le même paquet de demandes au {{date}}.   Vous pouvez soit visionner le <a href=\"{{existing_batch}}\">paquet existant</a>, ou éditer les details suivant pour faire un nouveau paquet similaire."
 
 msgid "Your <strong>Right to Know</strong>"
-msgstr ""
+msgstr "Votre <strong>Droit de Savoir</strong>"
 
 msgid "Your e-mail:"
-msgstr ""
+msgstr "Votre e-mail:"
 
 msgid "Your name will appear <em>publicly</em> (<a href=\"{{why_url}}\">why?</a>) on this website and in search engines."
-msgstr ""
+msgstr "Votre nom apparaîtra <em>publiquement</em> (<a href=\"{{why_url}}\">why?</a>) sur ce site et dans des programmes de recherches."
 
 msgid "Your name:"
-msgstr ""
+msgstr "Votre nom:"
 
 msgid "Your request:"
-msgstr ""
+msgstr "Votre demande:"
 
 msgid "Your selected authorities"
-msgstr ""
+msgstr "Les autorités que vous avez sélectionné"
 
 msgid "a one line summary of the information you are requesting, \\n\t\t\te.g."
-msgstr ""
+msgstr "un résumé d'une ligne de l'information que vous demandez, \\n\t\t\te.g."
 
 msgid "{{existing_request_user}} already\\n      created the same request on {{date}}. You can either view the <a href=\"{{existing_request}}\">existing request</a>,\\n      or edit the details below to make a new but similar request."
-msgstr ""
+msgstr "{{existing_request_user}}  a dejà effectué la même demande le {{date}}. Vous pouvez soit voir la <a href=\"{{existing_request}}\">demande existante </a>,\\n ou modifier les details ci dessous pour faire une nouvelle demande similaire ."
