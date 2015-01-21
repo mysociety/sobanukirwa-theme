@@ -1,0 +1,88 @@
+<% @title = "Ibijyanye na API yacu" %>
+
+<%= render :partial => 'sidebar' %>
+
+<div id="left_column_flip">
+  <h1><%=@title %></h1>
+  <dl>
+    <dt>Ijambo ry’ibanze</dt>
+    <dd>
+      <p>Iyi paji isobanura uburyo abakora imbuga za interineti bashobora guhuza Sobanukirwa n’izindi 
+      mbuga ndetse n’izindi software binyuze muri “API”.
+      </p>
+
+      <p>Sobanukirwa ntiragira API yuzuye, ariko tugenda twongeraho ibintu byinshi bishobora 
+      gukoreshwa nka API iyo bisabwe.
+      </p>
+    </dd>
+
+    <dt>Gusanisha n’ibibazo bishya</dt>
+    <dd>
+      <p>Kugirango ushishikarize abakoresha urubuga rwawe kwihuza n’umuyobozi runaka, koresha URLs ziri ku ifishi 
+      <%= link_to new_request_to_body_path(:url_name => "minagri") , new_request_to_body_path(:url_name => "minagri") %>.
+      Izi ni ingingo ushobora kongera kuri izo URLs, haba kuri URL cyangwa ubikuye mu ifishi.
+
+      <ul>
+          <li> <strong>Umutwe</strong> - incamake y’ikibazo gishya.</li>
+          <li> <strong>Ibarwa</strong> - umwandiko w’ibarwa. Gusuhuza (Nyakubahwa….) no gusezera (Murakoze) biba biri kumwe n’ibi. </li>
+          <li> <strong>Igihimba</strong> - mu gusimbura ibarwa, iyi yo igaragaza ikibazo cyose uko cyanditswe ku buryo ushobora gusuhuza no gusezera ukoresheje amagambo yawe. </li>
+          <li> <strong>Utumenyetso</strong> - urutonde rw’utumenyetso dutandukanyijwe n’umwanya, ku buryo ushobora kubona no kwisanisha ku bibazo byabajijwe nyuma, urugero: <em>openlylocal spending_id:12345</em>. Utu: tugaragaza ko ari utumenyetso tw’imashini. Utumenyetso tw’imashini dushobora no kuba turimo utwitso, twifashishwa muri URIs.
+      </ul>
+    </dd>
+
+    <dt>Urwungano (arirwo Atom) RSS</dt>
+    <dd>
+      <p>Hari urwungano Atom kuri paji nyinshi zishyiraho ibibazo by’ubwisanzure bwo kumenya amakuru, ushobora gukoresha ushaka amavugurura n’amahuriro , muri XML. 
+      Shaka URL y’urwungano Atom ukoresheje  bumwe muri ubu buryo: 
+      <ul>
+          <li>Shaka <%= image_tag "feed-16.png", :alt => "RSS icon" %> ihuriro ry’urwungano RSS.</li>
+          <li>Genzura <code>&lt;link rel="alternate" type="application/atom+xml"&gt;</code> ku mutwe wa HTML. </li>
+          <li>Ongera <code>/feed</code> ku ntangiriro y’indi URL.
+      </ul>
+
+      <p>By’umwihariko, n’amashakiro agoye afite urwungano Atom. Ushobora gukora ibintu byose uzikoresheje, 
+      nko gushaka ukurikije abayobozi, ubwoko bw’inyandiko, amatariki, cyangwa irangamimerere. 
+      Ku bindi bisobanuro reba <a href="<%= advanced_search_path %>">Uburyo bwo gushaka byimbitse</a>.
+    </dd>
+
+    <dt>Dosiye itunganyije ya JSON </dt>
+    <dd>
+      <p>Amapaji menshi agira inyandiko za JSON, zigufasha kubika amakuru y’ibintu ari ku murongo. 
+      Zishake ukoresheje:
+      </p>
+      <ul>
+          <li>Kwongera <code>.json</code> ku musozo wa URL. </li>
+          <li>Shaka akamenyetso ka <code>&lt;link rel="alternate" type="application/json"&gt;</code> mu mutwe wa HTML. </li>
+      </ul>
+
+      <p>Ibibazo, abakoresha urubuga n’abayobozi bose bagira inyandiko za JSON zirimo amakuru y’ingenzi 
+      aberekeyeho. Buri rwungano Atom rugira JSON bihuye irimo amakuru ku rutonde rw’ibintu byakorewe muri 
+      urwo rwungano.
+      </p>
+    </dd>
+
+    <dt>Urutonde rw’abayobozi bose</dt>
+    <dd>
+      <p>
+      Urutonde ruriho abantu bose bakoresha Sobanukirwa ruboneka:
+      <%= link_to "all-authorities.csv", all_public_bodies_csv_path %>
+      </p>
+
+    </dd>
+
+
+  <dt>Andika API </dt>
+  <dd>
+      <p>
+     Andika API yashyizweho kugirango ikoreshwe n’abayobozi mu gutanga ibibazo byabo. API ikoreshwa na software ya <a href="https://github.com/mysociety/foi-register">FOI Register software</a> ya mySociety mu gukoresha Alaveteli 
+     kugirango igaragaze ibyanditswe mu bikorwa by’ubwisanzure bwo kumenya amakuru byandikiwe umuyobozi runaka. 
+     Ibindi bisobanuro bya tekinike bijyanye na Andika API wabisanga kuri <a href="https://github.com/mysociety/alaveteli/wiki/API#write-api">Alaveteli wiki</a>.
+      </p>
+  </dd>
+</dl>
+
+  <p>Ushobora <a href="<%= help_contact_path %>">kutwandikira</a> niba wifuza ikindi kimenyetso cya API kitari aha. 
+  Turacyari kwaguka, kandi tugenda twongeraho ibindi bintu iyo babidusabye.</p>
+
+  <div id="hash_link_padding"></div>
+</div>
