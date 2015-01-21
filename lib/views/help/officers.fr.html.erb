@@ -1,0 +1,198 @@
+<% @title = "Questions des responsables de l'accès a l'information" %>
+
+<%= render :partial => 'sidebar' %>
+
+<div id="left_column_flip">
+  <h1 id="officers"><%= @title %> <a href="#officers">#</a> </h1>
+
+  <dl>
+
+  <dt id="top">Je viens d'arriver sur ce page au milieu d'une demande d'accès a l'information, 
+  que se passe-t-il?<a href="#top">#</a> </dt>
+
+  <dd><p>Sobanukirwa est un service géré par une organisation de la société civile pour aider le peuple 
+    a faire des demandes d'accès à l'information (ATI) et facilement faire le suivre et partager les réponses</p>
+  <p>La demande ATI que vous avez reçu a été faite par une personne utilisant Sobanukirwa . vous pouvez
+  tout simplement répondre à la demande comme pour tout autre demande d'un individu . La seule différence
+  est que votre réponse sera automatiquement publiée sur l'Internet.</p>
+  
+  <p>Si vous avez des préoccupations concernant l'intimité ou autres , s'il vous plaît lisez les réponses ci-dessous.<a
+  href="<%= help_about_path %>">introduction to Sobanukirwa</a> 
+  pour en savoir plus sur ce que le site fait du point de vue de l'utilisateur . Vous pouvez également rechercher
+  le site pour trouver l'autorité pour laquelle vous travaillez , et voir le statut des demandes faites en 
+  utilisant le site .
+  <p>
+  Enfin, nous aimerions recevoir les commentaires et réflexions de responsables de l'information
+  ,veuillez <a href="<%= help_contact_path %>">nous contacter</a>.
+  </p>
+  </dd>
+
+  <dt id="responses">Pourquoi publiez-vous les réponses aux demandes ATI?<a href="#responses">#</a> </dt>
+  <dd>
+  Nous pensons qu'il ya beaucoup d'avantages . Et surtout le public sera plus intéressés 
+  et impliqués dans le travail du gouvernement . Nous espérons également que cela réduira le nombre de demandes
+  en double sur n'importe quel sujet que l'organisme public recevra. Etant donné que les réponses fournies aux requêtes 
+  d’accès à l’information contiendront des renseignements qu’une autre personne peut désirer, c’est important de les 
+  publier afin que tout le public en bénéficie.</dd>
+
+  <dt id="realpeople">Les gens font des demandes à des personnes réelles ?
+  Are the people making requests to real people? <a href="#realpeople">#</a> </dt>
+
+  <dd>
+  Oui. Afin de garder la trace des réponses nous utilisons les adresses 
+  email générées par ordinateur pour chaque demande . Cependant , avant de pouvoir 
+  envoyer une demande , chaque utilisateur doit s'inscrire sur le site avec un
+ adresse e-mail unique que nous vérifions. Vous pouvez rechercher ce site 
+ et trouver une page listant toutes les demandes que chaque personne a fait .
+ </dd>
+
+  <dt id="email_only">Un e-mail n'est pas une adresse suffisante pour passer une demande ATI!<a href="#email_only">#</a> </dt>
+
+  <dd>
+  Si, la loi sur l'accès a l'information datant de 2013 indique que l'information peut " être demandée par un individu
+  ou un groupe de personnes dans l'une des langues officielles prévues par la Constitution de la République du Rwanda 
+  verbalement,par écrit , par téléphone, par Internet ou tout autre moyen de communication , sans préjudice 
+  des dispositions de la présente loi."
+  </dd>
+
+  <dt id="vexatious">
+  Ne faites-vous pas beaucoup de demandes vexatoires ?<a href="#vexatious">#</a> </dt>
+
+  <dd><p>
+  Sobanukirwa ne fait pas de demandes . Nous envoyons des demandes au nom de nos 
+  utilisateurs , faites par des personnes réelles.</p>
+  <p>
+  Ce qui se passe est exactement pareil. Si beaucoup des personnes différentes ont fait des demandes 
+  a partir de leurs adresses e-mail Hotmail , alors vous ne penseriez pas que c'est Microsoft qui fait
+  ces des demandes.En outre, puisque toutes les demandes sont publiques , il est beaucoup plus facile
+  pour vous de voir si un de nos utilisateurs fait des demandes vexatoires.</p>
+  </dd>
+
+  <dt id="spam_problems">
+  Je peux voir une demande sur Sobanukirwa , mais jamais reçu par e-mail!<a href="#spam_problems">#</a> </dt>
+ <dd><p>
+ Si une demande apparaît sur le site , nous avons tenté de l'envoyer à l'autorité par email . De messages d'échec
+ de livraison apparaîtront automatiquement sur le site . Vous pouvez vérifier l'adresse que nous utilisons sur
+ " Voir ATI adresse e-mail "lien qui apparaît sur la page de l'autorité. 
+ 
+  <ahref="<%= help_contact_path %>">Nous contacter</a> 
+  s'il ya une meilleure adresse que nous pouvons utiliser.</p>
+  
+  <p>
+  Les demandes sont parfois pas livrés parce qu'ils sont retirés par « filtres anti-spam » 
+  dans le département informatique de l'autorité. Les autorités peuvent faire de sorte que cela
+  n'arrive pas en demandant à leurs départements informatiques de laisser passer les emails en
+  provenance de <strong>@sobanukirwa.rw</strong>.
+  
+  
+  Si<a href="<%= help_contact_path %>">vous nous demander</a> 
+  
+  
+  nous vous renverrons toute demande ,
+ et / ou donner des détails techniques de la livraison de sorte qu'un département informatique peut 
+ retracer ce qui est arrivé au message.</p>
+  
+<p>Enfin, vous pouvez répondre à toute demande de votre navigateur Web , sans avoir besoin du courriel , 
+en utilisant le " répondre à la demande " lien au bas de chaque page de la demande.</p>
+  
+  </dd>
+
+  <dt id="days">Comment calculez-vous la date limite indiquée sur les pages de demande?<a href="#days">#</a> </dt>
+
+  <dd>
+  <p>La loi sus l' accès à l'information dit:</p>
+
+  <blockquote><p>
+  Un agent d'information doit prendre une décision sur une demande d'informations dès que possible. 
+  Toutefois , le délai ne doit pas dépasser trois jours ouvrables a partir de la date de réception
+  de la demande.</blockquote>
+  
+  <p>Cependant, le temps peut être réduit comme suit:</p>
+  
+  <p>1° l'information demandée concerne la vie ou la liberté d' une personne , l' information doit être 
+  fournie dans les vingt-quatre heures après la réception de la demande;</p>
+
+  <p>2° l'information est demandée par un journaliste a la recherche des informations, l' information 
+  doit être fournie dans les deux jours suivant la réception de la demande.</p>
+  
+  <p>
+  Si l'agent d'information veut une extension du temps prevu, la loi stipule que "un
+  agent d'information doit demander à l'organe compétent de l'extension du délai pour la
+  fourniture d'informations dans l'une des langues officielles oralement, par écrit et par 
+  tout autre moyen de technologie sans préjudice des dispositions de lois".
+  </p>
+  
+  <p>Le texte intégral de la loi peut être trouvée dans <a href="http://www.primature.gov.rw/index.php?eID=tx_mm_bccmsbase_zip&id
+  =803869345476cde5d502d">Gazette officielle no 10 of 11.03.2013</a> 
+  sur le site Web de la Primature.
+  </p>
+  
+  </dd>
+
+  <dt id="days2">comment calculez-vous la date limite?<a href="#days2">#</a> </dt>
+
+  <dd>
+
+  <p>
+  
+  Veuillez lire la réponse à la question précédente en premier. Légalement , les autorités 
+  doivent répondre <strong>rapidement</strong> aux demandes d'ATI . S'ils ne parviennent pas 
+  à le faire, il est préférable qu'elles expeliquent la cause.</p>
+
+  </dd>
+
+  <dt id="large_file">
+  Comment puis-je envoyer un fichier de grande taille, impossible d'envoyer par email?<a href="#large_file">#</a> </dt>
+
+  <dd>
+  Au lieu de courriel, vous pouvez répondre à une demande directement depuis votre navigateur Web, y compris annexé  
+  un fichier. Pour le faire , choisissez " répondre à une demander " au bas de la page de la demande.
+  <a href="<%= help_contact_path %>">Contactez nous</a> si ça ne marche pas due a la taille (disons plus de 50 Mb).
+  </dd>
+
+  <dt id="names">Pourquoi publiez-vous les noms des fonctionnaires et les textes des e-mails?<a href="#names">#</a> </dt>
+
+  <dd>
+  Nous considérons ce que les fonctionnaires font dans le cadre de leur emploi être connu par le public. 
+  Nous allons supprimer le contenu dans des circonstances exceptionnelles, voir  notre
+  <a href="<%= help_privacy_path(:anchor => 'takedown') %>">police sur la supression du contenu</a>.
+  </dd>
+
+  <dt id="mobiles">Publiez-vous des adresses e-mail ou numéros de téléphone mobile<a href="#mobiles">#</a> </dt>
+
+  <dd><p>
+  Pour éviter les spam , nous supprimons automatiquement la plupart des e-mails et numéros mobiles à partir des 
+  réponses aux demandes. Veuillez <a href="<%= help_contact_path %>">nous contacter</a> au cas ou il manque quelque
+  chose. Pour des raisons techniques, nous ne supprimons pas toujours ce qui se trouvent dans des pièces jointes genre
+  PDF.</p>
+  
+  <p>
+  Si vous desirez savoir une adresse que nous avons supprimé, veuillez<a
+    href="<%= help_contact_path %>">nous contacter</a>. 
+  Occasionnellement, une adresse e-mail constitue une partie importante d'une réponse et nous 
+  allons l'afficher dans une forme masquée dans une annotation.  
+  </dd>
+
+  <dt id="copyright"><a id="commercial"></a>
+  Quelle est votre politique en matière de droit d'auteur de documents?<a href="#copyright">#</a> </dt>
+
+  <dd>The access to information law is "applicant blind", so anyone in the
+  world can request the same document and get a copy of it.
+  
+  La loi de l' accès à l'information est «aveugle demandeur", donc n'importe qui dans 
+  le monde peut demander le même document et obtenir une copie. 
+
+   Si vous pensez que le fait de publier un document sur internet porte atteinte à vos
+  droit d'auteur, vous pouvez <a href="<%= help_contact_path %>">nous contacter</a> et nous
+  demander de l'enlever. Cependant, pour empêcher la duplication de demandes et promouvoir de 
+  bonnes relations publiques, nous vous conseillons de ne pas le faire.
+  </dd>
+
+  </dl>
+
+  <p><strong>Si vous n'avez pas encore</strong>lu<a href="<%= help_about_path %>">l'introduction</a> --&gt;
+  <br><strong>Sinon</strong>,les<a href="<%= help_credits_path %>">credits</a>ou bien <a href="<%= help_api_path %>">
+  l'API des programmeurs</a> --&gt;
+
+  <div id="hash_link_padding"></div>
+</div>

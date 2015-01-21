@@ -1,0 +1,86 @@
+<% @title = "Insatisfait de la réponse obtenue?" %>
+
+
+<% if !@info_request.nil? %>
+<h1>Insatisfait de la réponse à votre demande '<%=request_link(@info_request) %>'?
+</h1>
+<% else %>
+<h1>Insatisfait de la réponse que vous avez obtenue?</h1>
+<% end %>
+
+<p>Si...</p>
+
+<ul>
+<li>Vous n'avez pas obtenu de réponse dans le délai imparti de 3 jours ouvrables</li>
+<li>Vous n'avez pas obtenu toute l'information demandée; <strong>ou bien</strong></li>
+<li>Votre demande a été refusée pour une raison que vous jugez contestable;</li>
+</ul>
+
+<p>...vous pouvez</p>
+
+<ol>
+<li>Soumettre une demande de <strong>révision</strong>au sein de l'autorité publique.</li>
+<li>Si cela ne marche pas, se plaindre au <strong>Bureasu de l'Ombudsman</strong>.</li>
+<li>Si ni l'un ou l'autre ne marche <strong>utiliser d'aures moyens</strong> afin de trouver une reponse.</li>
+</ol>
+
+<h1 id="internal_review">1. Soumettre une demande de révision <a class="hover_a" href="#internal_review">#</a> </h1>
+
+<p>
+<% if !@info_request.nil? %>
+    <%= link_to "Soumettre une demande de révision", show_response_no_followup_path(:id => @info_request.id, :incoming_message_id
+    => nil) + "?internal_review=1#followup", :class => 'link_button_green' %> 
+    puis écrire un message demandant à l' autorité d'examiner votre demande.
+<% else %>
+    
+    Au bas de la page de demande pertinentes sur <%= site_name %> 
+    choisir "demander une révision interne" . Ensuite, écrire un message demandant une examination
+    interne de votre demande. Vous pouvez inclure un lien vers le
+    la page de demande pour préciser la demande dont vous parlez.
+    
+    <% end %>
+</p>
+
+<h1 id="complaining">2. Porter plainte auprès du bureau de l'Ombudsman <a class="hover_a" href="#complaining">#</a> </h1>
+
+<p>
+Si vous n'êtes toujours pas satisfait après que l'autorité publique a fait l'examen interne ,
+alors vous pouvez porter plainte auprès du Bureau de l'Ombudsman. Pour le faire, lisez
+<a href="http://www.ombudsman.gov.rw/?How-to-complain">Comment porter plainte</a>
+sur le website du bureau de l'Ombudsman.
+</p>
+
+<p>
+Pour facilement envoyer l' information pertinente au Bureau de l'ombudsman, soit
+<% if !@info_request.nil? %>
+    inclure un lien à votre demande
+    <strong><%=h request_url(@info_request) %></strong>
+<% else %>
+    inclure un lien à votre demande sur <%= site_name %>
+<% end %>
+dans votre plainte ou imprimer la page entière de votre demande et toutes les pièces jointes .
+</p>
+
+<p><%= site_name %>
+
+n'a pas de capacité pour traiter une demande à ce stade - il passe dans le système de l'Ombudsman. 
+Vous pouvez laisser des annotations sur votre demande en gardant les gens informés du progrès accomplis.</p>
+
+<h1 id="other_means">3. Utiliser les autres options <a class="hover_a" href="#other_means">#</a> </h1>
+
+<p>
+Vous pouvez essayer de resoudre votre problème par la recherche dans d'autres moyens.
+
+<ul>
+<li>Faites<strong>une nouvelle demande d'ccès à l'information</strong> 
+pour des informations sommaires , ou pour
+documentation relative indirectement à des questions dans votre demande refusée.
+<a href="<%= help_contact_path %>">Demandez-nous des idées</a> si vous êtes bloqueé</li>
+<li>Au cas ou<strong>d'autres autorités publiques</strong> ou entreprises publiques sont impliqués
+faut leurs addresser les demandes d'accès à l'information.</li>
+
+<li>Demandez<strong>les chercheurs</strong> qui sont intéressés par le même sujet. Vous pouvez 
+parfois les trouver en naviguant sur ce site; contacter n'importe quel utilisateur enregistré à
+partir de leur page.
+</li>
+</ul>
