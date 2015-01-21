@@ -1,0 +1,22 @@
+<% @title = "Making requests" %>
+
+<%= render :partial => 'sidebar' %>
+<div id="left_column_flip">
+  <% if params[:country_name] %>  
+   <h1><%= _("Would you like to see a website like this in your country?") %></h1>
+  <% else %>
+   <h1>Powered by Alaveteli</h1>
+  <% end %>
+  <p>Ce site web est grâce à Alaveteli. Alaveteli est un logiciel libre destiné à faire des 
+  demandes d’accès à l’information. Il peut être facilement traduit en n’importe quelle langue
+  et personnalisé pour qu’il s’adapte aux différentes lois.</p>
+
+  <p>Le développement d’Alaveteli est financé et appuyé par un grand nombre de fondations et 
+  d’organisations caritatives qui s’intéressent à la transparence partout dans le monde.</p>
+  
+  
+  <p>Pour en apprendre davantage sur Alaveteli consultez le site web <a href="http://alaveteli.org">
+  </a>, ou contactez nous par courrier électronique<a href="mailto:hello@alaveteli.org"></a>.</p>
+
+  <div id="hash_link_padding"></div>
+</div>

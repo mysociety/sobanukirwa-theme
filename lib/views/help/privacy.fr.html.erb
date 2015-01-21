@@ -1,0 +1,110 @@
+<% @title = "Protection des renseignements personnels" %>
+
+<%= render :partial => 'sidebar' %>
+
+<div id="left_column_flip">
+  <h1 id="privacy"><%= @title %></h1>
+  <dl>
+
+  <dt id="email_address">Qui peut voir mon adresse courriel?<a href="#email_address">#</a> </dt>
+
+  <dd><p>Nous ne divulguerons pas votre adresse e-mail à n'importe qui , sauf si la loi nous sommes oblige de 
+  le faire, ou bien si vous nous permettez de le faire. Cela implique l'autorité à qui vous envoyez votre
+  demande . Ils ne voient que l'adresse e-mail @sobanukirwa.rw qui est spécifique à cette demande.</p>
+  
+  <p>Si vous envoyez un message à un autre utilisateur sur le site, votre
+  adresse e-mail sera révélé pour eux. Mais vous serez informé que ce qui va se passer en avance.</p>
+  </dd>
+
+  <dt id="nasty_spam">Recevrai-je du courrier indésirable sur mon adresse courriel?<a href="#nasty_spam">#</a> </dt>
+  
+  
+  
+  <dd>
+  Non. Après votre inscription sur Sobanukirwa, nous vous enverrons seulement des courriels liés à une requête 
+  que vous avez faite, une alerte à laquelle vous vous êtes inscrit, ou pour toute autre raison spécifiquement autorisée 
+  par vous. Nous ne donnerons ou ne vendrons jamais votre adresse à quiconque, à l'exception
+  des organismes gouvernementaux à qui votre demande sera envoyée, et ce, uniquement si la loi l'exige.
+  </dd>
+
+  <dt id="public_request">Est-ce que mon nom et mes requêtes apparaîtront publiquement sur le site?
+  <a href="#public_request">#</a> </dt>
+
+  <dd>
+  Oui! Nous publions vos requêtes sur Internet pour que tous les demandeurs puissent les lire et utiliser
+  l’information que vous avez trouvée. Nous n’effaçons pas les requêtes ou leurs réponses.</p>
+<p>Votre nom est lié à votre demande; il doit donc être publié également. Il est ici question d’équité, 
+puisque nous publierons le nom du responsable de l'accès aux documents qui rédigera la décision à votre 
+requête.</p> 
+<p>Utiliser votre vrai nom aide également à vous mettre en contact avec des gens qui souhaiteraient vous assister
+pour votre recherche ou votre campagne.</p>
+  </dd>
+
+  <dt id="real_name">Puis-je soumettre une demande d’accès en empruntant un pseudonyme?<a href="#real_name">#</a> </dt>
+
+  <dd>
+<p>Bien que la loi ne vous oblige pas à utiliser votre véritable nom, il s’agit d’une bonne pratique à adopter dans un 
+contexte où l’on souhaite augmenter la transparence. De plus, si votre demande est refusée, vous pourriez souhaiter 
+faire une demande de révision ou interjeter appel; avoir utilisé un pseudonyme risque de poser problème pour ces procédures.
+</p>
+
+<p>Il y a d’autres solutions si vous ne souhaitez pas soumettre votre nom complet.</p>
+
+<ul>
+<li>
+Utilisez le nom d’une organisation, d’une compagnie, etc.
+<li>Demandez à quelqu’un de soumettre la demande pour vous.
+<li>Si vous êtes vraiment coincé, vous pouvez nous demander de faire a votre place.
+Veuillez <a href="<%= help_contact_path %>">nous contacter</a> avec une bonne raison pour laquelle 
+vous ne pouvez pas faire la demande vous-même et ne pouvez même pas demander ce service à un ami. 
+Nous n'avons pas les moyens de le faire pour tout le monde.</ul>
+
+<p>En tout état de cause, veuillez ne pas adopter l’identité de quelqu’un d’autre.</p>
+
+</dd>
+
+<dt id="delete_requests">Pouvez-vous effacer mes requêtes ou modifier mon nom?<a href="#delete_requests">#</a> </dt>
+
+<dd>
+
+
+<p><%= site_name %> est un système d’archivage permanent et public des requêtes d’accès aux documents. Bien que vous puissiez 
+juger que la réponse à une requête n’est plus utile après un moment, elle pourrait être utile à d’autres. Pour cette raison, 
+nous n’effaçons pas les requêtes.</p> 
+
+<p>Dans des circonstances exceptionnelles Nous pouvons retirer ou changer votre nom sur le site internet 
+<a href="#takedown">voir la question suivante</a>. Dans le même ordre d’idée, nous pouvons aussi effacer 
+d’autres informations personnelles.</p> 
+
+<p>Si vous êtes préoccupé par de telles possibilités avant de faire votre requête, consultez la section 
+sur l’utilisation d’un <a href="#real_name">pseudonyms</a>.</p>
+
+
+</dd>
+
+<dt id="takedown">Pouvez-vous retirer certaines de mes informations personnelles?<a href="#takedown">#</a> </dt>
+
+<dd>
+
+<p>Si vous voyez certaines de vos informations personnelles sur le site que vous souhaitez cacher ou retirer,
+faites-le nous savoir. Spécifiez exactement quelle information pose problème, la raison et l’emplacement sur le site.</p>
+
+<p>S’il s’agit d’une information personnelle confidentielle postée accidentellement, nous la retirerons. Normalement, nous ne 
+considérons les requêtes de retrait d’information que lorsqu’elles proviennent de l’individu concerné. Cependant, nous 
+apprécierions dans les cas d’information jugée confidentielle, que toute incongruité nous soit signalée.</p>
+<p>Nous considérons qu’il est dans l’intérêt du public de publier les noms des responsables d'organismes publics. Nous ne 
+retirerons ces noms que sous des circonstances exceptionnelles, comme la possibilité que le dévoilement d’un nom pose un risque
+significatif à la sécurité de l’individu en question. Si vous êtes dans une telle situation et que vous souhaitez voir votre nom
+retiré, vous devez nous faire parvenir une requête de la part de votre superviseur.</p>
+<p>Pour toute autre requête, nous appliquons une évaluation d’intérêt public pour décider si l’information devrait être retirée. 
+Nous ne pouvons pas réellement modifier plusieurs types de pièces jointes (tels que des fichiers PDF, Microsoft Word ou Excel); 
+nous demanderons alors que l’organisme nous expédie les documents en question une seconde fois, avec l’information personnelle 
+retirée. </p>
+</dd>
+</dl>
+
+<p><strong>apprenez plus</strong>a partir de la page d'aide sur <a href="<%= help_officers_path %>">les agents d'information
+  </a> --&gt;
+
+  <div id="hash_link_padding"></div>
+</div>

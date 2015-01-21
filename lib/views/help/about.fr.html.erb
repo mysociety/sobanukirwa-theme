@@ -1,0 +1,45 @@
+<% @title = "A propos" %>
+
+<%= render :partial => 'sidebar' %>
+
+<div id="left_column_flip">
+  <h1 id="introduction">Introduction</h1>
+  <dl>
+
+  <dt id="purpose">Pourqoui Sobanukirwa? <a href="#purpose">#</a> </dt>
+  <dd>Pour vous aider a acceder l'informationa publique et gouvernementale sur ce qui se passe au Rwanda.
+  </dd>
+
+  <dt id="premise">Comment ce site fonctione? <a href="#premise">#</a> </dt>
+  <dd>bb Choisissez l’autorité publique détenant l’information que vous aimeriez obtenir, puis écrivez une 
+  brève note décrivant ce que vous voulez savoir. Nous envoyons alors votre requête, par courriel, à l’autorité 
+  en question. Toute réponse reçue est automatiquement publiée sur le site, pour le demandeur ainsi que pour 
+  tout autre internaute souhaitant la lire.</dd>
+
+  <dt id="whybother_me">Pourquoi se donner la peine d’utiliser Sobanukirwa? <a href="#whybother_me">#</a> </dt>
+  <dd>Vous exercez votre droit de vote et payez des taxes. Vous avez le droit de savoir comment le gouvernement 
+  utilise votre argent, que ce soit pour les soins de santé ou l'education. Une plateforme telle que 
+  Sobanukirwa permet de mieux connaître les rouages du gouvernement. Sobanukirwa donne la chance aux citoyens 
+  de participer à l’action de la fonction publique en suggérant des améliorations et en célébrant les réussites 
+  de leurs institutions gouvernementales. Ce site est aussi utile pour la recherche.</dd>
+
+  <dt id="whybother_them">Pourquoi les autorités se donnent-elles la peine de répondre? <a href="#whybother_them">#</a> </dt>
+  <dd>Selon la loi sur l’accès à l’information au Rwanda, elles doivent répondre. La réponse contiendra soit l’information demandée 
+  ou la raison légale pourquoi l’information n’a pu être fournie.</dd>
+
+  <dt id="who">Qui est derrière? <a href="#who">#</a> </dt>
+  <dd>Sobanukirwa a été créé et est maintenu par <a href="https://twitter.com/migishak">Migisha K. Claude</a> et 
+  <a href="https://twitter.com/stephen_abbott">Stephen Abbott Pugh</a>, 
+  en partenariat avec <a href="http://www.odesudi.org/">Open Democracy and Sustainable Development Initiative.</a>
+  </dd>
+
+  <dt id="updates">Comment rester informé sur les nouvelles de Sobanukirwa?<a href="#updates">#</a> </dt>
+  <dd>On a un <a href="<%= blog_path %>">blog</a> et un compte Twitter <a href="https://twitter.com/sobanukirwa">Twitter feed</a>.
+  </dd>
+
+
+  </dl>
+
+  <p><strong>Pour la suite</strong>, lisez a propos<a href="<%= help_requesting_path %>">de passer une requêtes</a> --&gt;
+  <div id="hash_link_padding"></div>
+</div>

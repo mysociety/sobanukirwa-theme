@@ -1,0 +1,200 @@
+<% @title = "Faire une demande d'accès" %>
+
+<%= render :partial => 'sidebar' %>
+<div id="left_column_flip">
+  <h1 id="making_requests"><%= @title %></h1>
+  <dl>
+
+  <dt id="which_authority">Je ne suis pas sûr de l'autorité qui doit traiter ma demande,comment puis-je faire? 
+  <a href="#which_authority">#</a> </dt>
+  
+  <dd>
+  <p>
+  Il peut être difficile de démêler les différents palliers et structures du gouvernement, et comprendre qui 
+  a l’information que vous recherchez. Voici quelques piste:
+  <ul>
+  <li>Furetez ou effectuez une recherche sur Sobanukirwa pour voir si des requêtes similaires ont été faites.</li>
+  <li>Quand vous avez trouvé un organisme qui pourrait détenir l’information recherchée, utilisez le bouton ‘site web’ 
+  du côté droit de leur page et vérifiez leurs activités.</li>
+  <li>Contactez l'organisme en question par téléphone ou par courriel pour demander s'il possède le type d’information que 
+vous cherchez. Habituellement, un contact préalable vous permet aussi de faire une demande plus ciblée.</li>
+<li>Ne vous inquiétez pas si vous ne trouvez pas le bon organisme du premier coup; ceux que vous contacterez sauront vous 
+rediriger pour votre deuxième recherche.</li>
+
+  <li>Si votre cas est compliqué, veuillez <a href="<%= help_contact_path %>">nous contacter</a> for help.</li>
+  </ul>
+
+  </dd>
+
+
+
+  <dt id="missing_body">Il vous manque l'autorité publique que j'aimerai contacter<a href="#missing_body">#</a> </dt>
+
+  <dd>
+  <p>Veuillez <a href="<%= new_change_request_path %>">nous contacter</a> avec le nom de l'autorité publique ainsi que
+  leur adresse e-mail utilisé pour répondre aux demandes d'accès a l'information
+  
+  </p>
+  <p>Si vous souhaitez nous aider à ajouter une catégorie entière de l'autorité publique sur le site, contactez nous.
+  </p>
+
+  </dd>
+
+  <dt id="focused">Pourquoi ma demande doit-elle être ciblée et concise?<a href="#focused">#</a> </dt>
+
+  <dd>
+
+  <p>S'il vous plaît mentionez ce qui est nécessaire seulement pour que quelqu'un puisse 
+  identifier facilement les informations que vous demandez.
+  Merci de <i>n’inclure aucun</i> des éléments suivants:
+  </p>
+
+  <ul>
+  <li>arguments en faveur de votre cause;</li>
+  <li>affirmations diffamatoires ou insultes;</li>
+  <li>demandes de commentaires.</li>
+  </ul>
+
+  <p>
+  Si vous incluez de tels éléments, notamment des propos diffamatoires ou offensants, nous pourrions avoir à retirer 
+  votre requête afin d’éviter des problèmes légaux, ce qui ne vous servira pas et entraînera des problèmes de notre 
+  côté également. Des messages courts et directs clarifieront votre requête et permettront aux responsable d'accès aux
+  documents de repérer l’information que vous rechercher, réduisant ainsi le temps d’attente.</p>
+
+  <p>
+  Si vous souhaitez obtenir des informations pour soutenir un argument ou une campagne , l'accès à l'information est un 
+outil puissant. Bien que vous ne pouvez pas utiliser ce site pour lancer votre campagne , nous vous encourageons à l'utiliser
+pour obtenir l'informations que vous desirez. Nous vous encourageons également d'exécuter votre campagne ailleurs - une 
+efficace et très facile manière est de publier un blog personel  <%= link_to 'start your own blog',
+  "http://wordpress.com/"%>. 
+  Vous pouvez créer un lien entre votre campagne et ce site dans une annotation à votre demande
+  ( vous pouvez faire des annotations après la demande).</p>
+
+  </dd>
+
+  <dt id="fees">Y a-t-il un coût lié à la requête?<a href="#fees">#</a> </dt>
+
+  <dd>
+
+  <p>
+  Faire une demande d'accès à l'information est presque toujours gratuit. Les arrêtés ministériels affirment que 
+  "la mise à disposition de l'information doit être gratuite", mais ils déclarent également que
+  "les frais pour faire des copies ou envoyer des informations peuvent être imputés à la requérante" 
+  si le demandeur "n'apporte pas de l'équipement ou des outils nécessaires pour recueillir
+  les informations requises".</p>
+
+  </dd>
+
+
+
+  <dt id="quickly_response">Obtiendrai-je une réponse rapidement?? <a href="#quickly_response">#</a> </dt>
+
+  <dd>
+  <p>
+  Selon la loi, les organismes publics doivent répondre <strong>promptement</strong>aux requêtes.
+  La Loi spécifie qu'ils doivent répondre au maximum dans un délai de <strong>3 jours</strong> 
+  calendaires à partir de la réception de la demande.
+  </p>
+
+  <p>
+  Sobanukirwa vous enverra un email si vous n'obtenez pas de réponse a temps. Vous pouvez
+  ensuite envoyé l'autorité publique un message pour leur rappeler , et leur dire s'ils vont
+  contre la loi.</p>
+
+  </dd>
+
+  <dt id="no_response">Et si je n’obtiens aucune réponse?<a href="#no_response">#</a> </dt>
+
+  <dd>
+  <p>Il y a plusieurs choses que vous pouvez faire si vous ne recevez pas de réponse.</p>
+  <ul>
+      <li>
+      Parfois, il y a un réel problème et l'organisme ciblé n’a jamais reçu la requête. Il 
+      est alors utile de téléphoner à l'organisme en question et simplement demander si la demande a été reçue.</li>
+      
+      <li>
+      S’ils ne l’ont pas reçue, il se peut qu'un problème technique dû aux "filtres anti-spam". Contactez l'autorité
+      selon les mesures dans la réponse '<a href="<%= help_officers_path(:anchor => 'spam_problems') %>">
+      Je peux voir une demande sur Sobanukirwa , mais nous ne l'avons jamais obtenu par email </a>' 
+      dans la section des officiers en charge de l'information.</li>
+      
+      <li>
+      Si vous n'avez toujours des pas de chance , alors vous pouvez porter plainte au <a href="http://www.ombudsman.gov.rw/?
+      How-to-complain">Bureau de l'Ombudsman</a> a propos de l'autorité. Lisez notre page'
+      <a href="<%= help_general_path(:action =>'unhappy') %>"> ça marche?</a>'.
+      
+  </ul>
+  </dd>
+
+  <dt id="not_satifised">Que faire si je suis insatisfait de la réponse reçue?<a href="#not_satifised">#</a> </dt>
+  <dd>
+  Si vous n’avez pas obtenu de réponse a votre demande ou bien vous ne l'avez pas obtenu a temps, lisez notre page
+  <a href="<%= help_general_path(:action => 'unhappy') %>">content de la réponse fournie?</a>'.
+  </dd>
+
+  <dt id="data_protection">Puis-je demander de l’information à propos de moi-même?<a href="#data_protection">#</a> </dt>
+
+  <dd>
+  <p><strong>Non</strong>. Les requêtes sur Sobanukirwa sont publiques, faites dans le cadre de la Loi sur l’accès à 
+  l'information, et ne doivent pas vous aider à trouver de l’information à propos d’un particulier.</p>
+  
+  <p>Si vous réalisez que quelqu’un a inclus de l’information personnelle (possiblement par erreur) dans une requête, 
+  <a href="/help/contact">contactez-nous</a> immédiatement afin que nous puissions la retirer.</p>
+  </dd>
+
+
+  <dt id="private_requests">
+  J’aimerais garder ma requête secrète...du moins jusqu’à ce que je publie un article!<a href="#private_requests">#</a> </dt>
+
+  <dd><p>
+  Sobanukirwa est utilisé uniquement pour les requêtes publiques. Toutes les réponses reçues sont publiées automatiquement
+  sur le site afin que quiconque puisse les lire.</p>
+  <p>
+  Vous devriez contacter l'organisme public directement si vous souhaitez faire 
+  une requête privée.  
+  Si vous êtes intéressé à acheter un système qui vous aide a gérez les demandes privées 
+  <a href="<%= help_contact_path %>">contactez nous</a>.
+  </p>
+  </dd>
+
+  <dt id="multiple">
+  Puis-je faire la même requête à plusieurs organismes à la fois? Example a tout les secteurs? <a href="#multiple">#</a> </dt>
+
+  <dd>
+  Nous vous demandons d'envoyer d'abord une version de test de votre demande à quelques
+  autorités . Leurs réponses vous aideront à améliorer la formulation de votre demande ,
+  de sorte que vous obtenez la meilleure information lorsque vous envoyez la demande à tous
+  les autorités . Actuellement il n'existe pas de système automatisé pour l'envoi de la demande
+  aux autres autorités , vous devez copier et coller à la main.</dd>
+
+  <dt id="offsite">J’ai fait une requête en dehors du site, comment puis-je l’ajouter aux archives?<a href="#offsite">#</a> </dt>
+
+  <dd>
+  
+  Sobanukirwa est une archive des requêtes faites à travers le site, et non une archive de <em>toutes</em> les requêtes. 
+  Nous ne souhaitons pas ajouter d’autres requêtes. En effet, il serait impossible de vérifier que les réponses proviennent 
+  de l'organisme en question.</p>
+</dd>
+
+  Si ca compte vraiment pour vous ,
+  vous pouvez toujours faire la même demande via Sobanukirwa. 
+  </dd>
+
+  <dt id="moderation">Comment modérez-vous les annotations aux requêtes?<a href="#moderation">#</a> </dt>
+
+  <dd>
+  <p>
+  Les annotations sur Sobanukirwa sont utilisées pour aider les gens à obtenir l’information qu’ils veulent 
+  ou pour donner des indications afin de les diriger vers les ressources dont ils auront besoin. Nous nous gardons 
+  le droit de retirer toute autre annotation.</p>
+<p>Finalement, les discussions de nature politique ne sont pas autorisées. 
+Postez un lien vers un forum ou une campagne appropriée ailleurs.</p>
+  <dd>
+
+  </dl>
+
+  <p><strong>Ensuite</strong>, nous vons invitons à lire la section sur la <a href="<%= help_privacy_path %>">
+  confidentialité des données privées</a> --&gt;
+
+  <div id="hash_link_padding"></div>
+</div>
