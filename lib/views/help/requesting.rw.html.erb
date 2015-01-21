@@ -1,0 +1,138 @@
+<% @title = "Kubaza ibibazo" %>
+
+<%= render :partial => 'sidebar' %>
+<div id="left_column_flip">
+  <h1 id="making_requests"><%= @title %></h1>
+  <dl>
+
+  <dt id="which_authority">Sinzi umuyobozi nabaza ikibazo cyanjye, ni gute namenya uwo mbaza? <a href="#which_authority">#</a> </dt>
+
+  <dd>
+  <p>Bijya bigorana kumenya imikorere ya Leta, no kumenya uwo ubaza amakuru wifuza kumenya. Hano hari ibyagufasha:
+  <ul>
+  <li>Shaka kuri Sobanukirwa ibibazo bisa n’icyawe.</li>
+  <li>Ni umara kubona umuyobozi utekereza ko ashobora kuba afite amakuru, koresha akayoboro kari ku ruhande rw’iburyo kuri paji yabo kakugeza “ahabanza” kugirango urebe ku rubuga rwabo ibyo bakora. </li>
+  <li>Hamagara umuyoozi kuri telefoni cyangwa imeli ubabaze niba bafite amakuru wifuza.</li>
+  <li>Ntiwigore cyane ushaka umuyobozi nyawe wabaza amakuru. Ubajije uwo bitareba yakugira inama ya mugenzi we wabaza.</li>
+  <li>Niba ikibazo cyawe kigoye, <a href="<%= help_contact_path %>">twandikire</a> tugufashe.</li>
+  </ul>
+
+  </dd>
+
+
+
+  <dt id="missing_body">Umuyobozi nshaka kubaza ntabwo ari hano! <a href="#missing_body">#</a> </dt>
+
+  <dd>
+  <p><a href="<%= new_change_request_path %>">Twandikire</a> amazina y’umuyobozi, na imeli akoresha mu gusubiza ibibazo by’ubwisanzure bwo kumenya amakuru niba wayibona. 
+  </p>
+  <p>Niba wifuza kwongera urwego rw’abayobozi kuri uru rubuga, byatunezeza ubatugejejeho.
+  </p>
+
+  </dd>
+
+  <dt id="focused">Kubera iki ngomba kurasa ku ntego mu kibazo cyanjye?<a href="#focused">#</a> </dt>
+
+  <dd>
+
+  <p>
+  Mu kibazo cyawe, andika ibyo ukeneye gusa kugirango umuntu abashe guhita abona amakuru uri kubaza kandi mu buryo bworoshye. Mu kibazo cyawe <i>ntugire na kimwe ushyiramo</i> muri ibi bikurikira:
+  </p>
+
+  <ul>
+  <li>Ibisobanuro ku kibazo cyawe</li>
+  <li>Amagambo asebanya cyangwa atuka abandi</li>
+  </ul>
+
+  <p>
+  Ni ushyiramo kimwe muri ibi, dushobora gukuraho ikibazo cyawe kugirango twirinde ibibazo, kandi ibi byatuvuna twembi. Ubutumwa bugufi, kandi burasa ku ntego butuma byorohera abayobozi guhita bamenya amakuru wifuza kumenya, bivuze ko uzahita ubona igisubizo cyihuse.
+  </p>
+
+  <p>
+  Niba ushaka amakuru yo gushyigikira igitekerezo runaka cyangwa kwamamaza, urubuga rw’ubwisanzure bwo kumenya amakuru rwagufasha cyane. N’ubwo utarukoresha wiyamamaza, twagushishikariza kurukoresha kugirango ubone amakuru wifuza. Turagushishikariza kwiyamamariza ahandi – uburyo bumwe bworoshye kandi bwizewe ni ugutangira <%= link_to 'start your own blog',
+  "urubuga rwawe rw’amakuru agezweho"%>. Ushobora kuvuga ku kwiyamamaza kwawe kuri uru rubuga ubinyujije mu bisobanuro by’ikibazo cyawe (ushobora kwongeraho ibisobanuro nyuma yo kwohereza ikibazo).
+  </p>
+
+  </dd>
+
+  <dt id="fees">Ese kubaza ibibazo birishyurwa?<a href="#fees">#</a> </dt>
+
+  <dd>
+
+  <p>Gutanga ikibazo cy’ubwisanzure bwo kumenya amakuru bisa nk’aho ari ubuntu buri gihe. Itegeko rya Minisitiri riravuga ngo ‘Gutanga amakuru ntibigomba kwishyurwa’ ariko nanone rikavuga ngo "uwasabye amakuru ashobora kwishyuzwa amafaranga yo gufotoza cyangwa kwohererezwa kopi z’amadosiye yifuza’ mu gihe “atazanye ibikoresho bikenewe byo kuba yatwaraho ayo makuru yasabye."</p>
+
+  </dd>
+
+
+
+  <dt id="quickly_response">Nzahabwa igisubizo mu gihe kingana iki? <a href="#quickly_response">#</a> </dt>
+
+  <dd>
+  <p>Mu mategeko, abayobozi bagomba <strong>guhita</strong> basubiza ibibazo, mu bisanzwe mu gihe cy’iminsi <strong>itatu</strong>.
+  </p>
+
+  <p>Sobanukirwa izakoherereza imeli ni uramuka utinze guhabwa igisubizo. Ushobora kwoherereza ubutumwa umuyobozi umwibutsa, cyangwa se umubwira ko atakurikije amategeko.</p>
+
+  </dd>
+
+  <dt id="no_response">Byagenda gute ndamutse ntabonye igisubizo?<a href="#no_response">#</a> </dt>
+
+  <dd>
+  <p>Hari ibintu byinshi ushobora gukora mu gihe udahawe igisubizo.</p>
+  <ul>
+      <li>Rimwe na rimwe, hashobora kuba habayeho imbogamizi maze umuyobozi ntabone ikibazo cyawe. Byaba byiza uhamagaye umuyobozi ukamubaza mu kinyabupfura niba yarakiriye ikibazo cyawe. Bayohererejwe kuri imeli. 
+      </li>
+      <li>Niba batarakibonye, bishobora kuba byaraturutse kuri “muyunguruzi wa sipamu”. Bwira umuyobozi ingamba zivugwa mu gisubizo
+      '<a href="<%= help_officers_path(:anchor => 'spam_problems') %>">Hari ikibazo ndi kubona kuri Sobanukirwa, ariko ntitwigeze tukibona kuri imeli!</a>'. Mu gice cyo mu bufasha kivuga ku mukozi ushinzwe gutanga amakuru. 
+      </li>
+      <li>Niba n’ubu utarasubizwa, ushobora gutanga ikibazo kuri uwo muyobozi mu <a href="http://www.ombudsman.gov.rw/?How-to-complain">biro by’umwunzi</a>.
+      Soma paji yacu '<a href="<%= help_general_path(:action => 'unhappy') %>">Ntiwishimiye igisubizo wahawe?</a>'.
+  </ul>
+  </dd>
+
+  <dt id="not_satifised">Ndamutse ntishimiye igisubizo? <a href="#not_satifised">#</a> </dt>
+  <dd>Niba utahawe amakuru wasabye, cyangwa se utarayaboneye igihe, soma paji yacu '<a href="<%= help_general_path(:action => 'unhappy') %>">Ntiwishimiye igisubizo wahawe?</a>'.
+  </dd>
+
+  <dt id="data_protection">Nshobora gusaba amakuru anyerekeyeho? <a href="#data_protection">#</a> </dt>
+
+  <dd>
+  <p>Oya. Ibibazo byatanzwe kuri Sobanukirwa biba biri ku mugaragaro, byatanzwe hakurikjwe itegeko ry’ubwisanzure bwo kumenya amakuru, kandi ntibishobora kugufasha mu gushaka amakuru ku muntu ku giti.</p>
+
+  <p>Ni ubona umuntu washyize mu kibazo umwirondoro we, wenda yabikoze atabishaka, uhite <a href="<%= help_contact_path %>">utumenyesha</a> ako kanya kugirango tuwukureho. 
+</p>
+  </dd>
+
+
+  <dt id="private_requests">Ndifuza ko ikibazo cyanjye kiba ibanga! (Byibura kugeza igihe nzashyirira ahagaragara inkuru yanjye) <a href="#private_requests">#</a> </dt>
+
+  <dd><p>Ubu Sobanukirwa yashyiriweho ibibazo rusange. Ibisubizo byose twakira bihita bishyirwa ku mugaragaro ku rubuga rwa interineti ku buryo buri wese ashobora kubisoma. </p>
+  <p>Ugomba kuvugisha umuyobozi niba wifuza gutanga ikibazo mu ibanga. Niba wifuza kugura uburyo bwagufasha kugenzura amakuru y’ibibazo mu ibanga, <a href="<%= help_contact_path %>">watwandikira</a>.
+  </p>
+  </dd>
+
+  <dt id="multiple">Ese nshobora kubaza ikibazo kimwe abayobozi benshi, urugero: inzego zose? <a href="#multiple">#</a> </dt>
+
+  <dd>Turabanza tukagusaba kwoherereza ikibazo abayobozi bacye kugirango ugerageze. Ibisubizo byabo bizagufasha guhindura amagambo ukoresha mu kibazo cyawe, kugirango ubone amakuru yuzuye ni ujya kucyoherereza abayobozi bose. Ubu nta buryo buriho bwo guhita woherereza abandi bayobozi ikibazo, ugomba kucyandukura.
+
+  </dd>
+
+  <dt id="offsite">Nakuye ikibazo ku rubuga, ni gute nakibika mu bushyinguro bw’inyandiko?<a href="#offsite">#</a> </dt>
+
+  <dd>Sobanukirwa ni ubushyinguro bw’ibibazo byose byabajijwe hakoreshejwe uru rubuga, kandi ntigerageza kuba ubushyinguro bw’ibibazo byose by’bwisanzure bwo kumenya amakuru. Ntabwo twakwakira ibibazo wakuye ahandi. Ibi ni ukubera impamvu imwe, ni uko tudashobora kugenzura niba igisubizo cyaratanzwe n’umuyobozi. Niba iki kibazo gifite agaciro kenshi, ushobora kwongera kukibaza ukoresheje Sobanukirwa. 
+  </dd>
+
+  <dt id="moderation">Ni gute ugenzura ibisobanuro byatanzwe ku bibazo? <a href="#moderation">#</a> </dt>
+
+  <dd>
+  <p>Ibisobanuro byo kuri sobanukirwa bifasha abantu kubona amakuru basabye, cyangwa se kubatungira agatoki aho bashobora kujya kugirango bagire icyo babikoraho. Dufite uburenganzira bwo gukuraho ikintu icyo aricyo cyose.
+  </p>
+  <p>Impaka z’urudaca za politiki ntabwo zemewe. Shyiraho akayoboro ku rundi rubuga ahandi.</p>
+  <dd>
+
+  </dl>
+
+  <p><strong>Ibikurikira</strong>, soma ibijyanye <a href="<%= help_privacy_path %>">n’ubuzima bwawe bwite</a> --&gt;
+
+  <div id="hash_link_padding"></div>
+</div>

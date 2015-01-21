@@ -1,0 +1,19 @@
+<% @title = "Kubaza ibibazo" %>
+
+<%= render :partial => 'sidebar' %>
+<div id="left_column_flip">
+  <% if params[:country_name] %>  
+   <h1><%= _("Would you like to see a website like this in your country?") %></h1>
+  <% else %>
+   <h1>Ihabwa ububasha na Alaveteli</h1>
+  <% end %>
+  <p>Uru rubuga ruhabwa ububasha na Alaveteli. Alaveteli ni software itishyurwa yo gutangiraho ibibazo by’ubwisanzure bwo kumenya amakuru. Ishobora guhindurwa mu rurimi urwo arirwo rwose mu buryo bworoshye, kandi yasanishwa ku mategeko atandukanye y’ubwisanzure bwo kumenya amakuru.</p>
+
+  <p>Gushyiraho Alaveteli byatewe inkunga kandi bishyigikiwe n’umubare munini w’imiryango iharanira gukorera mu mucyo mu isi yose.</p>
+  
+  <p>Niba wifuza gushyiraho urubuga rwa Alaveteli mu gihugu cyawe, dushobora kugufasha. Uzakenera iminsi mike yo gushyiraho urubuga no kugirango rube rwatangira gukoreshwa, nyuma yaho uzajya umara nk’isaha imwe mu cyumweru yo kurukurikirana (amasaha ashobora kwiyongera iyo urubuga rukoreshwa cyane).</p>
+  
+  <p>Soma ibindi bisobanuro ku <a href="http://alaveteli.org">rubuga rwa Alaveteli</a>, cyangwa <a href="mailto:hello@alaveteli.org">utwoherereze imeli</a>.</p>
+
+  <div id="hash_link_padding"></div>
+</div>

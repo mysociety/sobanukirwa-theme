@@ -1,0 +1,99 @@
+<% @title = "Ubuzima bwawe bwite" %>
+
+<%= render :partial => 'sidebar' %>
+
+<div id="left_column_flip">
+  <h1 id="privacy"><%= @title %></h1>
+  <dl>
+
+  <dt id="email_address">Ni inde ushobora kubona imeli aderesi yanjye? <a href="#email_address">#</a> </dt>
+
+  <dd><p>Nta muntu tuzaha imeli aderesi yawe keretse tubisabwe n’amategeko cyangwa udusabye kubikora. Ibi bireba n’umuyobozi woherereje ikibazo. Babona gusa imeli aderesi yihariye ku kibazo ya @sobanukirwa.rw.   </p>
+  <p>Niwoherereza ubutumwa undi muntu ku rubuga, azabona imeli yawe . Tuzakumenyesha ko bigiye kuba.</p>
+  </dd>
+
+  <dt id="nasty_spam">Muzajya munyoherereza sipamu kuri imeli aderesi yanjye? <a href="#nasty_spam">#</a> </dt>
+  <dd>Oya. Ni umara kwiyandikisha kuri Sobanukirwa, tuzajya tukwoherereza imeli zijyanye n’ikibazo wabajije gusa, imbuzi uzaba wariyandikishijeho, cyangwa se ku zindi mpamvu waduhereye uburenganzira. Ntabwo tuzaha imeli aderesi yawe undi muntu uwo ariwe wese, keretse tubisabwa n’itegeko cyangwa se ubitwisabiye. 
+  </dd>
+
+  <dt id="public_request">Kubera iki izina ryanjye n’ikibazo cyanjye bizajya ku mugaragaro ku rubuga? <a href="#public_request">#</a> </dt>
+
+  <dd>
+  <p>Ikibazo cyawe tuzagishyira ku mugaragaro kuri interineti kugirango buri wese abashe kugisoma kandi akoreshe amakuru wahawe. Mu busanzwe ntitujya dusiba ibibazo (<a href="#delete_requests">ibindi bisobanuro</a>).
+  </p>
+  <p>
+ Izina ryawe riba riri kumwe n’ikibazo cyawe, rero naryo rigomba gushyirwa ku mugaragaro. Biri mu mucyo kuberako tuba tuzanashyira ahagaragara izina ry’umukozi wa Leta uzasubiza ikibazo cyawe. Gukoresha izina ryawe bwite bifasha abantu kuba bakwandikira bakanagufasha mu bushakashatsi bwawe cyangwa se kwamamaza.
+  </p>
+  </dd>
+
+  <dt id="real_name">Ese nshobora kubaza ikibazo cy’ubwisanzure bwo kumenya amakuru nkoresheje izina ry’irihimbano? <a href="#real_name">#</a> </dt>
+
+  <dd>
+<p>Yego. Niba ufite ikibazo cyo gukoresha izina ryawe bwite, ushobora kwohereza ikibazo cyawe ukoresheje izina ry’irihimbano. Itegeko ry’ubwisanzure bwo kumenya amakuru ryo mu 2013 ntabwo rivuga ko abantu bagomba gukoresha amazina yabo bwite.
+</p>
+
+<p>Hari uburyo bwinshi bwiza bwo gukoresha izina ry’irihimbano:</p>
+
+<ul>
+<li>Gukoresha izina ry’umuryango runaka, izina ry’ubucuruzi, cyangwa izina ry’igicuruzwa cy’umushinga runaka.
+<li>Gusaba undi muntu kugutangira ikibazo.
+<li>Niba nta bundi buryo ufite, ushobora kudusaba kugutangira ikibazo. <a href="<%= help_contact_path %>">Twandikire</a> uduha impamvu ifatika ituma udashobora kwibariza icyo kibazo kandi nta n’inshuti yabigukorera. Ntabwo dufite ubushobozi bwo kubikorera abantu bose.
+</ul>
+
+<p>Ntugerageze kwigira undi muntu. </p>
+
+</dd>
+
+<dt id="full_address">They've asked for my postal address! <a href="#full_address">#</a> </dt>
+
+<dd>
+  
+<p>Article nine of Rwanda's access to information law states that "the person applying for information shall determine 
+the means in which he/she wants to obtain information". The law also states that information can be requested 
+"verbally, in writing, by telephone, internet or any other means of communication".</p>
+
+<p>So if you ask for the requested information to be sent to you via email, the access to information law
+states that the information officer should follow your instructions and there is no need for you to provide
+them with your postal address.
+</p>
+  
+</dd>
+
+<dt id="delete_requests">Ese mushobora gusiba ibibazo byanjye, cyangwa mugahindura izina ryanjye?  <a href="#delete_requests">#</a> </dt>
+
+<dd>
+
+<p><%= site_name %> ni ububiko rusange buhoraho bw’ibibazo by’ubwisanzure bwo kumenya amakuru. N’ubwo ushobora gutekereza ko igisubizo cyahawe ikibazo runaka nta kamaro kigifite, gishobora gufasha undi muntu. Ku bw’iyo mpamvu, ntabwo tuzasiba ibibazo.
+</p>
+
+<p>Kubera impamvu zihariye dushobora gukuraho cyangwa guhindura amazina yawe ku rubuga, <a href="#takedown">reba ikibazo gikurikira</a>.
+Dushobora ndetse no gukuraho undi mwirondoro.
+</p>
+
+<p>Niba ufite impungenge kuri ibi mbere y’uko utanga ikibazo cyawe, reba igice <a href="#real_name">cy’amazina y’amahimbano</a>.</p>
+
+</dd>
+
+<dt id="takedown">Ese mushobora gukuraho umwirondoro wanjye? <a href="#takedown">#</a> </dt>
+
+<dd>
+
+<p>Nihagira umwirondoro wawe ubona ku rubuga wifuza ko twakuraho, <a href="<%= help_contact_path %>">tumenyeshe</a>.
+Sobanura neza amakuru wumva ateye ikibazo, impamvu n’aho agaragara ku rubuga.</p>
+
+<p>Niba ari amakuru bwite yakugiraho ingaruka yashyizwe ku mugaragaro mu buryo bw’impanuka, tuzayakuraho. Mu busanzwe, iyo umuntu bireba ariwe wisabiye ko dukuraho amakuru ye bwite nibwo tubiha agaciro, ariko twashimira umuntu uwo ari we wese watwereka ahari amakuru yagira ingaruka kuri nyirayo.</p>
+
+<p>Tuzi ko gufata mu mutwe amazina y’abakorera abayobozi biri mu nyungu z’abaturage. Ayo mazina tuzayakuraho gusa ku mpamvu zihariye, nko mu gihe kugaragaza izina ry’umuntu n’icyo ashinzwe bishobora kugira ingaruka ku mutekano we. Niba uri uwo mukozi ukaba wifuza ko izina ryawe turikuraho ku bw’iyo mpamvu yihutirwa, ugomba kubwira umuyobozi wawe akatwandikira adusaba kubikora. 
+Iyi baruwa yo gusaba igomba kugaragaza impungenge zirenze inyungu z’abaturage, kandi igomba kugaragaza ko hashyizwemo imbaraga mu guhisha iryo zina no ku rubuga rw’ikigo.</p>
+
+<p>Ntabwo byatworohera guhindura amoko menshi y’imigereka (nka PDFs, cyangwa Microsoft Word cyangwa Excel files), rero kenshi tuzasaba abayobozi kwongera kwohereza aya madosiye bakuyemo amakuru bwite.</p>
+
+</dd>
+
+
+</dl>
+
+<p><strong>Wasoma ibindi</strong> muri <a href="<%= help_officers_path %>">abakozi bashinzwe gutanga amakuru</a> --&gt;
+
+  <div id="hash_link_padding"></div>
+</div>
