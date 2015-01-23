@@ -275,7 +275,7 @@ body:before {
 }
 /* Notices, errors */
 
-#notice, #error, .errorExplanation, #request_header_text, #hidden_request, .describe_state_form form, .undescribed_requests {
+#notice, #error, .errorExplanation, #request_header_text, #hidden_request, .describe_state_form form, .undescribed_requests, .warning {
   border-top: 10px solid;
   font-size: 1.2em;
   border-radius: 0;
@@ -300,7 +300,7 @@ body:before {
   border-color: $notice-border;
 }
 
-#error, .errorExplanation, #hidden_request {
+#error, .errorExplanation, #hidden_request, .warning {
   background-color: $error-bg;
   border-color: $error-border;
 
