@@ -593,3 +593,11 @@ dt {
     }
 }
 
+/* Request list page */
+#request_list {
+  #filter_requests_form {
+    label.form_label.title {
+      width: auto;
+    }
+  }
+}
