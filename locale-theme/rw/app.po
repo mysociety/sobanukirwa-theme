@@ -5,13 +5,14 @@
 # Translators:
 # Clarisse Umutesi Mwitegereze <clarisse@mediae.org>, 2015
 # mySociety <transifex@mysociety.org>, 2015
+# Stephen Abbott Pugh <stephendabbott@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: alaveteli\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:52+0000\n"
-"PO-Revision-Date: 2015-01-21 13:27+0000\n"
-"Last-Translator: mySociety <transifex@mysociety.org>\n"
+"PO-Revision-Date: 2015-01-25 13:38+0000\n"
+"Last-Translator: Stephen Abbott Pugh <stephendabbott@gmail.com>\n"
 "Language-Team: Kinyarwanda (http://www.transifex.com/projects/p/sobanukirwa-theme/language/rw/)\n"
 "Language: rw\n"
 "MIME-Version: 1.0\n"
@@ -101,7 +102,7 @@ msgid "Like us on Facebook"
 msgstr "Dukunde kuri Facebook"
 
 msgid "Make a request"
-msgstr "L'acces a une information"
+msgstr "Tanga ikibazo"
 
 msgid "Make an {{law_used_short}} request"
 msgstr "Tanga ikibazo kuri {{law_used_short}} "
