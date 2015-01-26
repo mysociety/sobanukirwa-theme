@@ -5,13 +5,14 @@
 # Translators:
 # Clarisse Umutesi Mwitegereze <clarisse@mediae.org>, 2015
 # mySociety <transifex@mysociety.org>, 2014-2015
+# Stephen Abbott Pugh <stephendabbott@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: alaveteli\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:52+0000\n"
-"PO-Revision-Date: 2015-01-21 13:26+0000\n"
-"Last-Translator: mySociety <transifex@mysociety.org>\n"
+"PO-Revision-Date: 2015-01-25 14:50+0000\n"
+"Last-Translator: Stephen Abbott Pugh <stephendabbott@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/sobanukirwa-theme/language/fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +42,7 @@ msgid "Air, water, soil, land, flora and fauna (including how these effect\\n   
 msgstr "L'air, l'eau, le sol, la terre, la flore et la faune (incluant comment ils affectent\\n des être humains)"
 
 msgid "Ask for <strong>specific</strong> documents or information, this site is not suitable for general enquiries."
-msgstr "Demander <strong>des documents ou infromation </strong> spécifiques, ce site n'est pas approprié pour les renseignements généraux."
+msgstr "Demander <strong>des documents ou information </strong> spécifiques, ce site n'est pas approprié pour les renseignements généraux."
 
 msgid "Browse <a href='{{url}}'>other requests</a> for examples of how to word your request."
 msgstr "Parcourir <a href='{{url}}'>d'autres demandes</a> pour voir des examples de comment formuler votre demande."
@@ -61,7 +62,7 @@ msgstr ""
 "              facteurs environnementaux listés ci dessus)"
 
 msgid "Every citizen has the right to access information held by public authorities and some private bodies. <strong>By law, they have to respond</strong>. <a href={{help_url}}>Find out more about Access to Information.</a>"
-msgstr "Chaque citoyen a le droit d'accèder les informations retenues par les autorité publiques ainsi que quelques organismes privés. <strong>Selon la loi, ils doivent répondre </strong>. <a href={{help_url}}>Trouver plus d'information sur l' Accès à l'information.</a>"
+msgstr "Chaque citoyen a le droit d'accèder les informations retenues par les autorité publiques ainsi que quelques organismes privés. <strong>Selon la loi, ils doivent répondre </strong>. <a href={{help_url}}>Trouver plus d'information sur l' accès à l'information.</a>"
 
 msgid "Everything that you enter on this page, including <strong>your name</strong>,\\n                will be <strong>displayed publicly</strong> on\\n                this website forever (<a href=\"{{url}}\">why?</a>)."
 msgstr ""
@@ -77,7 +78,7 @@ msgid "Follow us on Twitter"
 msgstr "Nous suivre sur Twitter"
 
 msgid "Help"
-msgstr "De l'aide"
+msgstr "Aide"
 
 msgid "However, you have the right to request environmental\\n            information under a different law"
 msgstr "Cependant, vous avez le droit de demander des\\n            des informations environnementales en vertu d'une loi différente"
@@ -116,10 +117,10 @@ msgid "Make an {{law_used_short}} request to '{{public_body_name}}'"
 msgstr "Faire une {{law_used_short}} demande à  '{{public_body_name}}'"
 
 msgid "Password:"
-msgstr "Mot de passe :"
+msgstr "Mot de passe:"
 
 msgid "Password: (again)"
-msgstr "Mot de passe : (confirmation)"
+msgstr "Mot de passe: (confirmation)"
 
 msgid "Plans and administrative measures that affect these matters"
 msgstr "Les plans et les mesures administratifs qui touchent ces questions"
