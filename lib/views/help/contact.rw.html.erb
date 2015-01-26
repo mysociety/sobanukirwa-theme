@@ -1,0 +1,99 @@
+<% @title = "Twandikire" %>
+
+<%= foi_error_messages_for :contact %>
+
+<h1><%= @title %></h1>
+
+<div id="contact_preamble">
+
+    <% if !flash[:notice] %>
+        <h2>Kwandikira umuyobozi kugirango ubone amakuru yemewe n’amategeko</h2>
+        <ul>
+            <li><a href="<%= new_request_path %>">Jya hano</a> kugirango utange ikibazo, ku mugaragaro, uhabwe 
+            amakuru avuye ku bayobozi.</li>
+
+            <li>
+            Urashaka kubaza amakuru yihariye akwerekeyeho?
+            Soma
+            <a href="<%= help_requesting_path(:anchor => 'data_protection') %>">paji yacu y’ubufasha.</a>.
+            </li>
+        </ul>
+
+    <% end %>
+
+    <h2>Kuvugana n’itsinda rya <%= site_name %> team</h2>
+    <% if !flash[:notice] %>
+            <ul>
+            <li>
+            Banza usome  <a href="<%= help_about_path %>">paji y’ubufasha</a> kuko ishobora 
+            gusubiza ikibazo cyawe vuba.
+            </li>
+
+            <li>Byatunezeza cyane kumva ibitekerezo byawe ku bijyanye no gukoresha uru rubuga. 
+            Ushobora kuzuza iyi fishi, cyangwa ukatwoherereza imeli kuri <a
+               href="mailto:<%=@contact_email%>"><%=@contact_email%></a>
+            </li>
+
+            <li>Twebwe turi umuryango utegamiye kuri leta ntabwo turi ikigo cya leta.</li>
+            </ul>
+    <% end %>
+</div>
+
+<%= form_for :contact do |f| %>
+
+    <% if not @user %>
+        <p>
+            <label class="form_label" for="contact_name">Impamvu:</label>
+            <%= f.text_field :name, :size => 20 %>
+            (or <%= link_to "sign in", signin_path(:r => request.fullpath) %>)
+        </p>
+
+        <p>
+            <label class="form_label" for="contact_email">Ubutumwa bwohererejwe urubuga:</label>
+            <%= f.text_field :email, :size => 20 %>
+        </p>
+    <% end %>
+
+    <p>
+        <label class="form_label" for="contact_subject">Shyiraho akarango k’umuyobozi</label>
+        <%= f.text_field :subject, :size => 50 %>
+    </p>
+
+    <p>
+        <label class="form_label" for="contact_message">Kuraho:</label>
+        <%= f.text_area :message, :rows => 10, :cols => 60 %>
+    </p>
+
+    <p style="display:none;">
+        <%= f.label :comment, 'Do not fill in this field' %>
+        <%= f.text_field :comment %>
+    </p>
+
+    <% if !@last_request.nil? %>
+        <p>
+            <label class="form_label" for="contact_message">Include link to request:</label>
+            <%=request_link(@last_request) %>
+            <%= submit_tag "remove", :name => 'remove' %>
+        </p>
+    <% end %>
+    <% if !@last_body.nil? %>
+        <p>
+            <label class="form_label" for="contact_message">Include link to authority:</label>
+            <%=public_body_link(@last_body) %>
+            <%= submit_tag "remove", :name => 'remove' %>
+        </p>
+    <% end %>
+
+    <p class="form_note">
+    Ubufasha dushobora gutanga ni ubujyanye n’<strong>ibibazo bya tekinike</strong> gusa, cyangwa 
+    se ibibazo bijyanye n’ubwisanzure bwo kumenya amakuru.
+    </P>
+
+
+    <div class="form_button">
+        <%= hidden_field_tag(:submitted_contact_form, 1) %>
+        <%= submit_tag "Oherereza ubutumwa uyu muryango", :disable_with => "Sending..." %>
+        &lt;-- nitwe dukurikirana uru rubuga, ntabwo ari leta!
+    </div>
+
+<% end %>

@@ -1,0 +1,64 @@
+<% @title = "Ntabwo wishimiye igisubizo wahawe?" %>
+
+
+<% if !@info_request.nil? %>
+<h1>Ntabwo wishimiye igisubizo wahawe? '<%=request_link(@info_request) %>'?
+</h1>
+<% else %>
+<h1>Ntabwo wishimiye igisubizo wahawe?</h1>
+<% end %>
+
+<p>Niba ...</p>
+
+<ul>
+<li>Nta gisubizo wahawe mu gihe cy’iminsi itatu y’akazi</li>
+<li>Utarahawe amakuru yose wasabye <strong>cyangwa se</strong></li>
+<li>Ikibazo cyawe kitarakiriwe, ariko nta mpamvu isobanurwa n’itegeko</li>
+</ul>
+
+<p>... ushobora</p>
+
+<ol>
+<li>Gusaba umuyobozi ko bagukorera isuzuma.</li>
+<li>Ibyo bitagize icyo bitanga, watanga ikibazo ku rwego rw’umuvunyi.</li>
+<li>Ushobora no gukoresha ubundi buryo mu gusubiza ikibazo cyawe.</li>
+</ol>
+
+<h1 id="internal_review">1. Gusaba gukorerwa isuzuma <a class="hover_a" href="#internal_review">#</a> </h1>
+
+<p>
+<% if !@info_request.nil? %>
+    <%= link_to "Request an internal review", show_response_no_followup_path(:id => @info_request.id, :incoming_message_id => nil) + "?internal_review=1#followup", :class => 'link_button_green' %> and then write a message asking the authority to review your request.
+<% else %>
+    Hasi kuri paji y’ikibazo cyatanzwe kuri <%= site_name %>, hitamo “saba isuzuma”. 
+    Hanyuma wandike ubutumwa usaba ko ikibazo  cyawe cyakorerwa isuzuma. Ushobora gushyiraho 
+    akarango ka paji y’ikibazo, kugirango usobanure neza ikibazo uri kuvuga.
+<% end %>
+</p>
+
+<h1 id="complaining">2. Gutanga ikibazo ku rwego rw’umuvunyi <a class="hover_a" href="#complaining">#</a> </h1>
+
+<p>Niba wumva utanyuzwe nyuma y’uko umuyobozi agukoreye isuzuma, ushobora gutanga ikirego 
+ku rwego rw’umuvunyi. Kugirango ubashe kubikora, soma
+<a href="http://www.ombudsman.gov.rw/?How-to-complain">Uko watanga ikirego</a> ku rubuga rw’umuvunyi.
+</p>
+
+<p>Kugirango kwohereza amakuru y’ingenzi ku Rwego rw’Umuvunyi bikorohere, mu kirego cyawe ushobora gushyiramo akarango 
+k’ikibazo watanze kuri <%= site_name %> cyangwa se ugashyiramo inyandiko ya paji yose ndetse n’imigereka.
+</p>
+
+<p>Iyo bigeze kuri uru rwego, <%= site_name %> nta bushobozi iba ifite bwo gukurikirana 
+ikibazo cyawe – ibikurikiraho byose bikorwa binyuze mu nzira z’ Urwego rw’Umuvunyi. Ushobora gutanga 
+ibisobanuro ku kibazo cyawe kugirango abandi bamenye aho ikibazo kigeze.</p>
+
+<h1 id="other_means">3. Gukoresha ubundi buryo mu gusubiza ikibazo cyawe <a class="hover_a" href="#other_means">#</a> </h1>
+
+<p>Ushobora kugerageza gukurikirana ikibazo cyawe cyangwa ishakiro ryawe mu bundi buryo.
+
+<ul>
+<li>Tanga ikibazo gishya cy’ubwisanzure bwo kumenya amakuru, cyangwa se inyandiko zidahuye neza n’ibikubiye mu kibazo cyawe kitakiriwe.
+<a href="<%= help_contact_path %>">Dusabe ibitekerezo</a> niba utazi uko ubigenza.</li>
+<li>Niba hari <strong>abandi bayobozi</strong> cyangwa se ibigo bya leta birebwa n’ikibazo cyawe, nabo bandikire ubabaza.</li>
+<li>Saba ibitekerezo <strong>abandi bashakashatsi</strong> bari gushaka ibintu bisa n’ibyawe. Hari igihe ushobora kubabona ushatse kuri 
+uru rubuga; andikira buri muntu wese wiyandikishije kuri uru rubuga unyuze kuri paji yabo.</li>
+</ul>
