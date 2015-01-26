@@ -449,6 +449,17 @@ body:before {
   }
 }
 
+/* Public body page */
+@media(max-width: $main_menu-mobile_menu_cutoff) {
+  #public_body_show {
+    #stepwise_make_request {
+      .link_button_green {
+        height: auto;
+      }
+    }
+  }
+}
+
 /* Request page */
 div.correspondence {
   background-color: $correspondence-bg;
