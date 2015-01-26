@@ -1,0 +1,18 @@
+<div id="right_column_flip">
+    <h2>Paji z’ubufasha</h2>
+    <ul class="no_bullets">
+        <li><%= link_to_unless_current "Ijambo ry’ibanze", help_about_path %></li>
+        <li><%= link_to_unless_current "Kubaza ibibazo", help_requesting_path %></li>
+        <li><%= link_to_unless_current "Ubuzima bwawe bwite", help_privacy_path %></li>
+        <li><%= link_to_unless_current "Abakozi bashinzwe gutanga amakuru", help_officers_path %></li>
+        <li><%= link_to_unless_current "Ibijyanye n’iyi software", help_alaveteli_path %></li>
+        <li><%= link_to_unless_current "Kwemeza", help_credits_path %></li>
+        <li><%= link_to_unless_current "API y’abakora imbuga", help_api_path %></li>
+        <li><%= link_to_unless_current "Gushaka byimbitse", advanced_search_path %></li>
+    </ul>
+
+    <h2 id="contact">Twandikire</h2>
+    <p>Niba ikibazo cyawe kitarasubijwe hano, cyangwa se hari ikintu wifuza kutubwira kijyanye n’uru rubuga, 
+    <a href="<%= help_contact_path %>">twandikire</a>.
+    </p>
+</div>
