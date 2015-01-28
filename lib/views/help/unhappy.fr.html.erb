@@ -28,17 +28,16 @@
 
 <p>
 <% if !@info_request.nil? %>
-    <%= link_to "Soumettre une demande de révision", show_response_no_followup_path(:id => @info_request.id, :incoming_message_id
-    => nil) + "?internal_review=1#followup", :class => 'link_button_green' %> 
-    puis écrire un message demandant à l' autorité d'examiner votre demande.
+  <%= link_to "Soumettre une demande de révision",
+      show_response_no_followup_path(:id => @info_request.id, :incoming_message_id => nil) + "?internal_review=1#followup",
+      :class => 'link_button_green' %>
+  puis écrire un message demandant à l' autorité d'examiner votre demande.
 <% else %>
-    
     Au bas de la page de demande pertinentes sur <%= site_name %> 
     choisir "demander une révision interne" . Ensuite, écrire un message demandant une examination
     interne de votre demande. Vous pouvez inclure un lien vers le
     la page de demande pour préciser la demande dont vous parlez.
-    
-    <% end %>
+<% end %>
 </p>
 
 <h1 id="complaining">2. Porter plainte auprès du bureau de l'Ombudsman <a class="hover_a" href="#complaining">#</a> </h1>
