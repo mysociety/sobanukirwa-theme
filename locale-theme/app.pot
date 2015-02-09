@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: version 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-21 14:52+0000\n"
+"POT-Creation-Date: 2015-02-09 13:15+0000\n"
 "PO-Revision-Date: 2014-12-09 15:21+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,6 +51,9 @@ msgstr ""
 msgid "Browse requests"
 msgstr ""
 
+msgid "Co-created by"
+msgstr ""
+
 msgid "Contact us"
 msgstr ""
 
@@ -82,9 +85,6 @@ msgid "I would like to ask for the following information under Law no 04/2013 of
 msgstr ""
 
 msgid "If you're new to {{site_name}}"
-msgstr ""
-
-msgid "In partnership with"
 msgstr ""
 
 msgid "Information on emissions and discharges (e.g. noise, energy,\\n            radiation, waste materials)"

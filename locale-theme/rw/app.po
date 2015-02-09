@@ -4,15 +4,16 @@
 #
 # Translators:
 # Clarisse Umutesi Mwitegereze <clarisse@mediae.org>, 2015
+# Gareth Rees <gareth@mysociety.org>, 2015
 # mySociety <transifex@mysociety.org>, 2015
 # Stephen Abbott Pugh <stephendabbott@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: alaveteli\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-21 14:52+0000\n"
-"PO-Revision-Date: 2015-01-25 13:38+0000\n"
-"Last-Translator: Stephen Abbott Pugh <stephendabbott@gmail.com>\n"
+"POT-Creation-Date: 2015-02-09 13:15+0000\n"
+"PO-Revision-Date: 2015-02-09 13:18+0000\n"
+"Last-Translator: Gareth Rees <gareth@mysociety.org>\n"
 "Language-Team: Kinyarwanda (http://www.transifex.com/projects/p/sobanukirwa-theme/language/rw/)\n"
 "Language: rw\n"
 "MIME-Version: 1.0\n"
@@ -53,6 +54,9 @@ msgstr "Shaka <a href='{{url}}'>ibindi bibazo</a> byabajijwe '{{public_body_name
 msgid "Browse requests"
 msgstr "Shaka ibibazo"
 
+msgid "Co-created by"
+msgstr "Co-créé par"
+
 msgid "Contact us"
 msgstr "Twandikire"
 
@@ -85,9 +89,6 @@ msgstr "Nifuzaga gusaba amakuru nkuko byemewe tugendeye kw'itegeko numero 04/201
 
 msgid "If you're new to {{site_name}}"
 msgstr "Niba ari ubwa mbere ukoresheje {{site_name}}"
-
-msgid "In partnership with"
-msgstr "Ku bufatanye na"
 
 msgid "Information on emissions and discharges (e.g. noise, energy,\\n            radiation, waste materials)"
 msgstr "Amakuru ku bihumanya  (urugero: urusaku, ibikomoka ku ngufu,\\n            ibyuka bihumanya, imyanda)"
