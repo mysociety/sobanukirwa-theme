@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alaveteli\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-09 13:15+0000\n"
-"PO-Revision-Date: 2015-02-09 14:41+0000\n"
+"POT-Creation-Date: 2015-04-16 09:16+0000\n"
+"PO-Revision-Date: 2015-04-16 09:17+0000\n"
 "Last-Translator: Gareth Rees <gareth@mysociety.org>\n"
 "Language-Team: Kinyarwanda (http://www.transifex.com/projects/p/sobanukirwa-theme/language/rw/)\n"
 "Language: rw\n"
@@ -35,9 +35,6 @@ msgstr "<strong> Nshobora gusaba amakuru anyerekeyeho?</strong>\\n\t\t\t<a href=
 
 msgid "<strong>There may be risks associated with using your real name.</strong> <a href=\"{{help_url}}\">Read our advice</a> about using a pseudonym."
 msgstr "<strong>Hashobora kubaho ibibazo bijyanye no gukoresha amazina yawe nyayo.</strong> <a href=\"{{help_url}}\">Soma inama tukugira</a> zijyanye no gukoresha amazina y'amahimbano."
-
-msgid "A project by"
-msgstr "Umushinga wa"
 
 msgid "Air, water, soil, land, flora and fauna (including how these effect\\n            human beings)"
 msgstr "Umwuka, amazi, ubutaka, inyamaswa n'ibihingwa (n'ingaruka bigira ku\\n            bantu)"
@@ -146,6 +143,9 @@ msgstr "Ubutumwa bwihariye kuri uyu muyobozi!"
 
 msgid "Summary:"
 msgstr "Incamake:"
+
+msgid "Supported by"
+msgstr "Yatewe inkunga na"
 
 msgid "Tags (separated by a space):"
 msgstr "Ibimenyetso (bitandukanyijwe n'umwanya hagati yabyo):"

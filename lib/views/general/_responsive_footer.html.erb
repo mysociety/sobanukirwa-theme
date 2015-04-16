@@ -3,8 +3,10 @@
     <div id="footer-nav">
         <ul>
           <li>
-            <h4><%= _("A project by") %></h4>
-            <%= link_to image_tag('logo.png'), frontpage_path, :id => 'logo' %>
+            <h4><%= _("Supported by") %></h4>
+            <%= link_to 'http://indigotrust.org.uk/2015/03/30/new-grant-rwandan-foi-platform/', :id => 'logo' do %>
+              <%= image_tag('indigo-trust-logo.jpg') %>
+            <% end %>
           </li>
           <li>
             <ul class="contact">

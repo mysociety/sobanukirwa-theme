@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: version 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-09 13:15+0000\n"
+"POT-Creation-Date: 2015-04-16 09:16+0000\n"
 "PO-Revision-Date: 2014-12-09 15:21+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,9 +31,6 @@ msgid "<strong> Can I request information about myself?</strong>\\n\t\t\t<a href
 msgstr ""
 
 msgid "<strong>There may be risks associated with using your real name.</strong> <a href=\"{{help_url}}\">Read our advice</a> about using a pseudonym."
-msgstr ""
-
-msgid "A project by"
 msgstr ""
 
 msgid "Air, water, soil, land, flora and fauna (including how these effect\\n            human beings)"
@@ -142,6 +139,9 @@ msgid "Special note for this authority!"
 msgstr ""
 
 msgid "Summary:"
+msgstr ""
+
+msgid "Supported by"
 msgstr ""
 
 msgid "Tags (separated by a space):"
