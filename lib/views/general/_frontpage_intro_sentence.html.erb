@@ -1,9 +1,9 @@
-<h2>
-  <%= _('Your <strong>Right to Know</strong>') %>
-</h2>
-<p>
-  <%= _('Every citizen has the right to access information held by public authorities ' \
-        'and some private bodies. <strong>By law, they have to respond</strong>. ' \
-        '<a href={{help_url}}>Find out more about Access to Information.</a>',
+<h1 class="intro__title"><%= _("Your <strong>Right to Know</strong>") %></h1>
+<p class="intro__description">
+  <%= _("Every citizen has the right to access information held by public authorities and some private bodies.") %>
+  <% if AlaveteliConfiguration.authority_must_respond %>
+    <strong><%= _("By law, they have to respond.") %></strong>
+  <% end %>
+  <%= _('<a href={{help_url}}>Find out more about Access to Information.</a>',
         :help_url => help_about_url) %>
 </p>
