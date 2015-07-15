@@ -447,6 +447,15 @@ body:before {
   ul li {
     text-align: center;
   }
+
+  .footer-logo {
+    float: left;
+    width: 50%;
+  }
+
+  .footer-logo.tumenye {
+    margin-top: 25px;
+  }
 }
 
 /* Public body page */
