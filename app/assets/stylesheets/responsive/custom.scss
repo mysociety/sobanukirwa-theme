@@ -257,6 +257,20 @@ input.use-datepicker[type=text] {
   }
 }
 
+@mixin button-quarternary($args...) {
+  @include button-base($args...);
+  background-color: $color_custom_green;
+  color: $color_white;
+  font-weight: normal;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: darken($color_custom_green, 7.5%);
+    color: $color_white;
+  }
+}
+
+
 form input[type=submit], a.link_button_green, a.link_button_green_large {
   @include button-primary;
   text-decoration: none;
@@ -951,19 +965,8 @@ li:nth-child(3) {
     }
   }
 
-  .button {
-    color: $color_white;
-    background-color: $color_custom_green;
-    border-color: $color_custom_green;
-    transition: color 300ms ease-out;
-    &:hover,
-    &:active,
-    &:focus {
-      color: $color_white;
-      background-color: darken($color_custom_green, 15%);
-      border-color: darken($color_custom_green, 15%);
-      transition: color 300ms ease-out;
-    }
+  .new-request__make-new-requests {
+    @include button-quarternary;
   }
 }
 
