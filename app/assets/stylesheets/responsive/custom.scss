@@ -37,15 +37,14 @@ $color_light_grey: #CCCCCC;
 $color_lighter_grey: #D3D3D3;
 $color_mid_cold_grey: #9AA6AB;
 
-$body-bg: $color_sand;
+$body-bg: $color_neutral_light;
 
 $locale-bg: $color_black;
 $locale-color: $color_mid_grey;
 $locale-hover-color: $color_white;
 
-$body-font-color: $color_black;
-$link-color: $color_custom_blue;
-$heading-color: $color_black-alt;
+$body-font-color: $color_neutral_dark;
+$link-color: $color_primary;
 $font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, serif;
 $sans-serif-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $form_input-bg: $color_white;
@@ -144,13 +143,16 @@ body{
   font-family: $font-family;
 }
 
-a{
-  color: $link-color;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: $heading-color;
-  font-family: $font-family;
+a {
+  &:link,
+  &:visited {
+    color: $link-color;
+  }
+  &:hover,
+  &:active,
+  &:focus {
+    color: darken($link-color, 10%);
+  }
 }
 
 /* Let h1s be a little smaller on small screens */
@@ -579,6 +581,9 @@ body:before {
 
 .locale-list.active .locale-list-trigger {
   border-color: transparent;
+  @include respond-min($main_menu-mobile_menu_cutoff) {
+    border-color: $color_neutral_dark;
+  }
 }
 
 
@@ -666,7 +671,7 @@ body:before {
     }
   }
   h1,h2,h3,h4,h5,h6 {
-    color: lighten($heading-color, 15%);
+    color: lighten($color_black-alt, 15%);
   }
   h1:first-child,
   h2:first-child,
@@ -762,7 +767,7 @@ a.link_to_this {
 #link_box {
   font-family: $font-family;
   border-radius: 0;
-  border: 1px solid $heading-color;
+  border: 1px solid $color_black-alt;
   .close-button {
     background-color: $correspondence-bg;
     float: right;
@@ -851,7 +856,6 @@ a.link_to_this {
 /* Help pages */
 
 dt {
-  color: $heading-color;
   font-weight: 700;
   @include respond-min( $main_menu-mobile_menu_cutoff ){
     font-size: 2em;
