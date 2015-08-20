@@ -30,11 +30,12 @@ $body-bg: $color_neutral_light;
 
 $body-font-color: $color_neutral_dark;
 $link-color: $color_primary;
+$action-color: $color_custom_green;
 $font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, serif;
 $sans-serif-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $form_input-bg: $color_white;
 
-$button-bg: $color_custom_green;
+$button-bg: $action-color;
 $button-color: $color_white;
 
 $status-success: $color_green;
