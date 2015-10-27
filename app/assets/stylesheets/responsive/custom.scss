@@ -370,8 +370,6 @@ body:before {
   background-color: $color_custom_mid_cold_grey;
   @include respond-min($main_menu-mobile_menu_cutoff) {
     background-color: transparent;
-    right: auto;
-    top: 1.5em;
   }
 }
 
@@ -380,8 +378,9 @@ body:before {
   border-bottom: 0;
   @include respond-min($main_menu-mobile_menu_cutoff) {
     position: absolute;
-    left: 160px;
-    top: 0.8em;
+    left: ($logo-width + 40px);
+    top: 2.2em;
+    right: auto;
   }
   .locale-list-trigger {
     margin-bottom: 0;
