@@ -449,7 +449,7 @@ body:before {
     z-index: 1000;
     border-radius: 3px;
     font-size: 1em;
-    width: 100%;
+    min-width: 100%;
   }
 
 }
