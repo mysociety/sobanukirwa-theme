@@ -272,15 +272,23 @@ body:before {
 
 /* Logged and local options act like submenus */
 #logged_in_bar{
+  @include respond-min($main_menu-mobile_menu_cutoff) {
+    top: 0;
+  }
+
   a {
     @extend %menu-item;
-    @extend %sub-menu-item;
+    background-color: transparent;
     font-weight: normal;
-    color: $color_sobanukirwa_darkgrey;
+    color: $color_black;
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: transparent;
+    }
   }
   #logged_in_links {
-    top: 4em;
-    .greeting, a {
+    a {
       font-weight: normal;
     }
   }
@@ -320,6 +328,10 @@ body:before {
   /* locale border */
   @include respond-min( $main_menu-mobile_menu_cutoff ){
     border-top: 4px solid $color_sobanukirwa_darkgrey;
+  }
+
+  .banner_site-title {
+    padding: 1em;
   }
 
   /* Hide the greeting on smaller devices */

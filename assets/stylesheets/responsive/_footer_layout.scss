@@ -1,5 +1,7 @@
+@import "foundation/components/block-grid";
+
 /* Footer layout */
-#footer {
+.footer {
   @include grid-row;
   padding-top: 10px;
   margin-top: 50px;
