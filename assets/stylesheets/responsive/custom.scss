@@ -582,6 +582,52 @@ dt {
     }
 }
 
+.steps__list li {
+  width: 33.3333%;
+  margin-left: 0 !important;
+}
+
+.steps__step-box {
+  background-color: $color_white;
+  padding: 2em;
+  box-shadow: 0 1px 2px transparentize($color_black, 0.75);
+  min-height: 11em;
+}
+
+.steps__step-number {
+  left: 50%;
+  margin-left: -1.75em;
+  bottom: -1em;
+  top: auto;
+  height: 3.5em;
+  width: 3.5em;
+  background-color: $color_green;
+  box-shadow: 0 1px 2px transparentize($color_black, 0.75);
+  padding: 1em;
+  border-radius: 100%;
+  color: $color_white;
+  text-align: center;
+  position: absolute;
+}
+
+.learn-more-foi {
+  margin-top: 3em;
+}
+
+.learn-more-foi a {
+  padding: 0.5em 1.25em;
+  border-radius: 3px;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 0;
+  color: $color_black;
+  background-color: $color_sobanukirwa_darksand;
+
+  &:hover, &:focus {
+    background-color: darken($color_sobanukirwa_darksand, 10%);
+  }
+}
+
 /* Request list page */
 #request_list {
   #filter_requests_form {
