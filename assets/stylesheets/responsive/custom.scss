@@ -621,10 +621,48 @@ dt {
   text-decoration: none;
   margin-bottom: 0;
   color: $color_black;
-  background-color: $color_sobanukirwa_darksand;
+  background-color: darken($color_sand, 15%);
 
   &:hover, &:focus {
-    background-color: darken($color_sobanukirwa_darksand, 10%);
+    background-color: darken($color_sand, 20%);
+  }
+}
+
+.hero__new-request {
+  .new-request__content {
+    background-color: $color_black;
+    border-radius: 5px;
+    padding: 1.8em;
+  }
+
+  .new-request__title {
+    color: $color_white;
+    margin: 0 0 0.5em;
+  }
+
+  .new-request__description {
+    color: $color_white;
+
+    p {
+      margin-top: 0;
+      margin-bottom: 1em;
+    }
+  }
+}
+
+.homepage-hero .new-request__make-new-requests {
+  padding: 0.5em 1.25em;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 0;
+  color: $color_white;
+  background-color: $color_green;
+  transition: background-color 300ms ease-out;
+
+   &:hover, &:focus {
+    background-color: darken($color_green, 10%);
   }
 }
 
