@@ -527,40 +527,6 @@ body:before {
     }
   }
 
-  /* Pad evenly top and bottom on smaller devices */
-  #logo_wrapper{
-    #logo {
-      display: block;
-    }
-
-    // Mobile logo
-    @media(max-width: $main_menu-mobile_menu_cutoff) {
-      padding: 0.5em 0 0.5em 0.9375em;
-
-      #logo {
-        background-image: image-url('logo-mobile.png');
-        background-repeat: no-repeat;
-        background-position: left center;
-        background-size: 200px 27px;
-        height: 30px;
-        @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-          background-image: image-url('logo-mobile@2.png');
-          background-size: 200px 27px;
-        }
-      }
-
-      img {
-        display: none;
-        height: 30px;
-      }
-    }
-
-    // Desktop logo
-    @include respond-min($main_menu-mobile_menu_cutoff) {
-      margin-bottom: 0;
-    }
-}
-
 }
 
 /* Footer */
