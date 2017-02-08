@@ -940,6 +940,18 @@ dt {
   }
 }
 
+// User menu
+.pro-pill {
+  background-color: desaturate(darken($color_secondary, 10%), 5%);
+}
+
+#logged_in_bar {
+  .logged-in-menu a,
+  .logged-in-menu__signout-link a {
+    color: $link-color;
+  }
+}
+
 /* Request list page */
 #request_list {
   #filter_requests_form {
