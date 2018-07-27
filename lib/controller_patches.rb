@@ -16,3 +16,24 @@
 #         end
 #     end
 # end
+
+Rails.configuration.to_prepare do
+
+  HelpController.class_eval do
+
+    private
+
+    # Backported fix from release/0.25.0.0 - prevents error when
+    # params[:contact] is missing or empty
+    # https://github.com/mysociety/alaveteli/commit/d62498d26fe3250665ba0751e680b0c843adf65f
+    def catch_spam
+      if request.post? && params[:contact]
+        if !params[:contact][:comment].blank? || !params[:contact].key?(:comment)
+          redirect_to frontpage_url
+        end
+      end
+    end
+
+  end
+
+end
