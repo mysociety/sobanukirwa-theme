@@ -23,9 +23,9 @@
   /* Three elements in footer - so a 3 element block grid */
   @include respond-min($main_menu-mobile_menu_cutoff) {
     >ul {
-      @include block-grid(3);
       font-size:0.85em;
-      li {
+      > li {
+        @include grid-column(4);
         text-align: left;
       }
     }
