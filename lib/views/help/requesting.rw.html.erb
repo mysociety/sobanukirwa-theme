@@ -1,7 +1,7 @@
 <% @title = "Kubaza ibibazo" %>
 
 <%= render :partial => 'sidebar' %>
-<div id="left_column_flip">
+<div id="left_column_flip" class="left_column_flip">
   <h1 id="making_requests"><%= @title %></h1>
   <dl>
 
@@ -86,12 +86,12 @@
       '<a href="<%= help_officers_path(:anchor => 'spam_problems') %>">Hari ikibazo ndi kubona kuri Sobanukirwa, ariko ntitwigeze tukibona kuri imeli!</a>'. Mu gice cyo mu bufasha kivuga ku mukozi ushinzwe gutanga amakuru. 
       </li>
       <li>Niba n’ubu utarasubizwa, ushobora gutanga ikibazo kuri uwo muyobozi mu <a href="http://www.ombudsman.gov.rw/?How-to-complain">biro by’umwunzi</a>.
-      Soma paji yacu '<a href="<%= help_general_path(:action => 'unhappy') %>">Ntiwishimiye igisubizo wahawe?</a>'.
+      Soma paji yacu '<a href="<%= help_general_path(:template => 'unhappy') %>">Ntiwishimiye igisubizo wahawe?</a>'.
   </ul>
   </dd>
 
   <dt id="not_satifised">Ndamutse ntishimiye igisubizo? <a href="#not_satifised">#</a> </dt>
-  <dd>Niba utahawe amakuru wasabye, cyangwa se utarayaboneye igihe, soma paji yacu '<a href="<%= help_general_path(:action => 'unhappy') %>">Ntiwishimiye igisubizo wahawe?</a>'.
+  <dd>Niba utahawe amakuru wasabye, cyangwa se utarayaboneye igihe, soma paji yacu '<a href="<%= help_general_path(:template => 'unhappy') %>">Ntiwishimiye igisubizo wahawe?</a>'.
   </dd>
 
   <dt id="data_protection">Nshobora gusaba amakuru anyerekeyeho? <a href="#data_protection">#</a> </dt>

@@ -1,7 +1,7 @@
 <% @title = "Faire une demande d'accès" %>
 
 <%= render :partial => 'sidebar' %>
-<div id="left_column_flip">
+<div id="left_column_flip" class="left_column_flip">
   <h1 id="making_requests"><%= @title %></h1>
   <dl>
 
@@ -121,7 +121,7 @@ efficace et très facile manière est de publier un blog personel  <%= link_to '
       <li>
       Si vous n'avez toujours des pas de chance , alors vous pouvez porter plainte au <a href="http://www.ombudsman.gov.rw/?
       How-to-complain">Bureau de l'Ombudsman</a> a propos de l'autorité. Lisez notre page'
-      <a href="<%= help_general_path(:action =>'unhappy') %>"> ça marche?</a>'.
+      <a href="<%= help_general_path(:template =>'unhappy') %>"> ça marche?</a>'.
       
   </ul>
   </dd>
@@ -129,7 +129,7 @@ efficace et très facile manière est de publier un blog personel  <%= link_to '
   <dt id="not_satifised">Que faire si je suis insatisfait de la réponse reçue?<a href="#not_satifised">#</a> </dt>
   <dd>
   Si vous n’avez pas obtenu de réponse a votre demande ou bien vous ne l'avez pas obtenu a temps, lisez notre page
-  <a href="<%= help_general_path(:action => 'unhappy') %>">content de la réponse fournie?</a>'.
+  <a href="<%= help_general_path(:template => 'unhappy') %>">content de la réponse fournie?</a>'.
   </dd>
 
   <dt id="data_protection">Puis-je demander de l’information à propos de moi-même?<a href="#data_protection">#</a> </dt>
