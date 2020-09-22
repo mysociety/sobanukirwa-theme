@@ -310,14 +310,22 @@ body:before {
 
 .site-title__logo {
   // Smaller logo on mobiles
-  width: ($logo-width / 2);
-  height: ($logo-height / 2);
-  background-size: ($logo-width / 2) ($logo-height / 2);
+  width: $logo-mobile-width;
+  height: $logo-mobile-height;
+  background-size: $logo-mobile-width $logo-mobile-height;
+  background-image: image-url('logo-mobile.png');
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+     background-image:image-url('logo-mobile@2.png');
+  }
 
   @include respond-min( $main_menu-mobile_menu_cutoff ){
     width: $logo-width;
     height: $logo-height;
     background-size: $logo-width $logo-height;
+    background-image: image-url('logo.png');
+    @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+       background-image:image-url('logo@2.png');
+    }
   }
 }
 
@@ -551,6 +559,11 @@ p.locale-list-trigger {
   /* locale border */
   @include respond-min( $main_menu-mobile_menu_cutoff ){
     border-top: 4px solid $color_black;
+
+    .banner_site-title {
+      padding-top: 0.5em;
+      padding-bottom: 0.8125em;
+    }
   }
 
   /* Hide the greeting on smaller devices */
