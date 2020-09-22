@@ -19,7 +19,7 @@
   &:hover,
   &:active,
   &:focus {
-    background-color: darken($color_custom_mid_cold_grey, 15%);
+    background-color: darken($color_mid_grey, 15%);
     color: $color_white;
   }
 
@@ -28,7 +28,7 @@
 /* Selected menu item */
 %selected-menu-item {
   font-weight: bold;
-  color: $color_custom_mid_cold_grey;
+  color: $color_mid_grey;
   background-color: $color_neutral_light;
   &:hover,
   &:active,
@@ -356,7 +356,7 @@ body:before {
   background-color: $color_white;
   border: none;
   transition: all 0.3s ease-out;
-  color: $color_custom_mid_cold_grey;
+  color: $color_mid_grey;
   border-radius: 0;
   font-size: inherit;
 }
@@ -403,7 +403,7 @@ body:before {
 
 /* LANGUAGE SWITCHER */
 #user_locale_switcher {
-  background-color: $color_custom_mid_cold_grey;
+  background-color: $color_mid_grey;
   @include respond-min($main_menu-mobile_menu_cutoff) {
     background-color: transparent;
   }
@@ -480,9 +480,9 @@ p.locale-list-trigger {
 
 .locale-list li {
   list-style-type: none;
-  border-top: 1px solid desaturate(lighten($color_custom_mid_cold_grey, 3%), 5%);
+  border-top: 1px solid desaturate(lighten($color_mid_grey, 3%), 5%);
   @include respond-min($main_menu-mobile_menu_cutoff) {
-    border-color: $color_custom_mid_cold_grey;
+    border-color: $color_mid_grey;
     display: block;
   }
   &:last-child {
@@ -513,9 +513,9 @@ p.locale-list-trigger {
 .locale-list .available-languages a:hover,
 .locale-list .available-languages a:focus {
   border-bottom: none;
-  background-color: darken($color_custom_mid_cold_grey, 5%);
+  background-color: darken($color_mid_grey, 5%);
   @include respond-min($main_menu-mobile_menu_cutoff) {
-    background-color: darken($color_custom_mid_cold_grey, 10%);
+    background-color: darken($color_mid_grey, 10%);
   }
   color: $color_white;
 
@@ -529,7 +529,7 @@ p.locale-list-trigger {
 
 .locale-list.active .current-locale {
   color: $color_white;
-  border-color: $color_custom_mid_cold_grey;
+  border-color: $color_mid_grey;
   @include respond-min($main_menu-mobile_menu_cutoff) {
     background-color: $color_black;
     border-color: $color_black;
@@ -793,7 +793,7 @@ a.link_to_this {
 
 .view_html_prefix {
   font-family: $font-family;
-  background-color: $color_custom_mid_cold_grey;
+  background-color: $color_mid_grey;
   color: transparentize($color_white, 0.2);
   @include ie8 {
     color: $color_white;
@@ -944,7 +944,7 @@ dt {
   }
 
   .new-request__content {
-    background-color: $color_custom_light_grey;
+    background-color: $color_light_grey;
     border-radius: 5px;
     padding: 1.888888889em;
   }

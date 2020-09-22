@@ -11,47 +11,35 @@ $logo-height: 75px;
 $logo-mobile-width: 200px;
 $logo-mobile-height: 27px;
 
-$color_sand: #f3f1eb;
 $color_black: #333333;
-$color_orange: #f4a140;
-$color_blue: #4faded;
-$color_green: #62b356;
-$color_yellow: #ffd836;
-$color_red: #e04b4b;
-$color_violet: #a94ca6;
-$color_purple: #5c377f;
-$color_white: #ffffff;
-$color_off_white: #f3f1eb;
-$color_light_grey: #e2dfd9;
-$color_mid_grey: #959287;
+$color_blue: #2D62B3;
 $color_dark_grey: #6c6b68;
-
-$color_custom_blue: #5378BF;
-$color_custom_yellow: #EDDF29;
-$color_custom_green: #6EA942;
-$color_custom_teal: #67848c;
-$color_custom_light_grey: #C8C9CB;
-$color_custom_mid_cold_grey: #a1a2a6;
-
+$color_green: #32A22F;
+$color_light_grey: #C8C9CB;
+$color_mid_grey: #a1a2a6;
+$color_off_white: #f3f1eb;
+$color_orange: #f4a140;
+$color_purple: #5c377f;
+$color_red: #e04b4b;
 $color_sand: #f3f1eb;
-$color_black: #333333;
-$color_green: #62b356;
+$color_violet: #a94ca6;
 $color_white: #ffffff;
+$color_yellow: #F2DF1B;
 
 $color_neutral_light: $color_sand;
 $color_neutral_dark: $color_black;
-$color_primary: $color_custom_blue;
-$color_secondary: $color_custom_yellow;
+$color_primary: $color_blue;
+$color_secondary: $color_yellow;
 
 $body-bg: $color_neutral_light;
 
 $body-font-color: $color_neutral_dark;
 $link-color: $color_primary;
-$action-color: $color_custom_green;
+$action-color: $color_green;
 $font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $form_input-bg: $color_white;
 
-$button-bg: darken($color_green, 10%);
+$button-bg: $color_green;
 $button-color: $color_white;
 
 $status-success: darken($color_green, 18%);
@@ -62,5 +50,5 @@ $notice-color: $color_green;
 $error-color: $color_red;
 $action-color: $color_orange;
 
-$banner_inner_bg: $color_custom_light_grey;
-$topnav_bg: $color_custom_mid_cold_grey;
+$banner_inner_bg: $color_light_grey;
+$topnav_bg: $color_mid_grey;
