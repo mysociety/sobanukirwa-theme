@@ -558,8 +558,6 @@ p.locale-list-trigger {
 
   /* locale border */
   @include respond-min( $main_menu-mobile_menu_cutoff ){
-    border-top: 4px solid $color_black;
-
     .banner_site-title {
       padding-top: 0.5em;
       padding-bottom: 0.8125em;
@@ -596,14 +594,13 @@ p.locale-list-trigger {
       right: 4px;
     }
   }
-
 }
+
 
 /* Footer */
 #footer {
   background-color: $color_neutral_dark;
   color: darken($color_neutral_light, 10%);
-  font-size: 1em;
   a {
     text-decoration: none;
     color: $color_white;
@@ -648,23 +645,6 @@ p.locale-list-trigger {
 .footer__final {
   .row {
     border-top: 1px solid lighten($color_neutral_dark, 6%);
-  }
-}
-
-/* Public body page */
-@media(max-width: $main_menu-mobile_menu_cutoff) {
-  #public_body_show {
-    #stepwise_make_request {
-      .link_button_green {
-        height: auto;
-      }
-    }
-  }
-}
-
-.footer__final {
-  .row {
-    border-top: 1px solid lighten($color_black, 6%);
   }
 }
 
@@ -907,13 +887,22 @@ dt {
     margin-top: 3em;
   }
   a {
-    @include button-secondary();
+    @include button-secondary;
+  }
+}
+
+.learn-more-foi {
+  @include respond-min( $main_menu-mobile_menu_cutoff ){
+    margin-top: 3em;
+  }
+  a {
+    @include button-secondary;
   }
 }
 
 .latest-requests {
   .button-secondary {
-    @include button-secondary();
+    @include button-secondary;
   }
 }
 
@@ -988,13 +977,4 @@ dt {
 // User menu
 .pro-pill {
   background-color: desaturate(darken($color_secondary, 10%), 5%);
-}
-
-/* Request list page */
-#request_list {
-  #filter_requests_form {
-    label.form_label.title {
-      width: auto;
-    }
-  }
 }
