@@ -962,15 +962,7 @@ dt {
     }
   }
   .new-request__make-new-requests {
-    @include button-base;
-    background-color: $color_custom_green;
-    color: $color_white;
-    &:hover,
-    &:active,
-    &:focus {
-      background-color: darken($color_custom_green, 10%);
-      color: $color_white;
-    }
+    @include button-primary;
   }
 }
 
