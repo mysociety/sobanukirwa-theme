@@ -464,13 +464,8 @@ p.locale-list-trigger {
   display: none;
   @include respond-min($main_menu-mobile_menu_cutoff) {
     position: absolute;
-    top: 3.4375em;
-    left: 0.9375em;
     z-index: 1000;
-    border-radius: 3px;
-    font-size: 1em;
     width: 100%;
-    max-width: 10em;
   }
 
 }
