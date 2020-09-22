@@ -938,11 +938,8 @@ dt {
 
 .homepage-hero {
   color: $color_black;
-  padding: 2em 0 5em;
+  padding: 2em 0 2em;
   position: relative;
-  @include respond-min($main_menu-mobile_menu_cutoff) {
-    padding: 5em 0 8em;
-  }
 
   a {
     &:hover,
