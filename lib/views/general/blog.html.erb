@@ -21,7 +21,7 @@
               <a href="<%=item['comments'][0]%>"><%= n_(
                 "{{number_of_comments}} comment",
                 "{{number_of_comments}} comments",
-                item['comments'][1],
+                item['comments'][1].to_i,
                 :number_of_comments=>item['comments'][1]) %></a>
             <% end %>
           </em>
