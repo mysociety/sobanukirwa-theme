@@ -29,7 +29,7 @@
 <p>
 <% if !@info_request.nil? %>
   <%= link_to "Soumettre une demande de révision",
-      show_response_no_followup_path(:id => @info_request.id, :incoming_message_id => nil) + "?internal_review=1#followup",
+      new_request_followup_url(:request_id => @info_request.id) + "?internal_review=1#followup",
       :class => 'link_button_green' %>
   puis écrire un message demandant à l' autorité d'examiner votre demande.
 <% else %>
